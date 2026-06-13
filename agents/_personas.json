@@ -1,0 +1,146 @@
+[
+  {
+    "slug": "raskolnikov",
+    "name": "Rodion Raskolnikov",
+    "epithet": "the ex-student · the theorist-murderer",
+    "emergence": "electrical",
+    "moniker": "⟦Rodion Raskolnikov:CRP:5694c5⟧",
+    "kind": "character",
+    "group": "people"
+  },
+  {
+    "slug": "sonya",
+    "name": "Sonya Marmeladova",
+    "epithet": "the holy prostitute · the gospel",
+    "emergence": "spiritual",
+    "moniker": "⟦Sonya Marmeladova:CRP:8828cd⟧",
+    "kind": "character",
+    "group": "people"
+  },
+  {
+    "slug": "porfiry-petrovich",
+    "name": "Porfiry Petrovich",
+    "epithet": "the magistrate · the psychologist",
+    "emergence": "natural",
+    "moniker": "⟦Porfiry Petrovich:CRP:036702⟧",
+    "kind": "character",
+    "group": "people"
+  },
+  {
+    "slug": "svidrigailov",
+    "name": "Arkady Svidrigailov",
+    "epithet": "the sensualist · the nihilist double",
+    "emergence": "electrical",
+    "moniker": "⟦Arkady Svidrigailov:CRP:fe1e45⟧",
+    "kind": "character",
+    "group": "people"
+  },
+  {
+    "slug": "dunya",
+    "name": "Dunya Raskolnikova",
+    "epithet": "the sister · the unbought",
+    "emergence": "natural",
+    "moniker": "⟦Dunya Raskolnikova:CRP:438d7f⟧",
+    "kind": "character",
+    "group": "people"
+  },
+  {
+    "slug": "razumikhin",
+    "name": "Dmitri Razumikhin",
+    "epithet": "the friend · ordinary goodness",
+    "emergence": "natural",
+    "moniker": "⟦Dmitri Razumikhin:CRP:63b778⟧",
+    "kind": "character",
+    "group": "people"
+  },
+  {
+    "slug": "marmeladov",
+    "name": "Semyon Marmeladov",
+    "epithet": "the drunkard · the confession in the tavern",
+    "emergence": "natural",
+    "moniker": "⟦Semyon Marmeladov:CRP:e97dc9⟧",
+    "kind": "character",
+    "group": "people"
+  },
+  {
+    "slug": "katerina-ivanovna",
+    "name": "Katerina Ivanovna",
+    "epithet": "the consumptive widow · pride and madness",
+    "emergence": "electrical",
+    "moniker": "⟦Katerina Ivanovna:CRP:77dbcb⟧",
+    "kind": "character",
+    "group": "people"
+  },
+  {
+    "slug": "luzhin",
+    "name": "Pyotr Luzhin",
+    "epithet": "the suitor · rational egoism",
+    "emergence": "ethereal",
+    "moniker": "⟦Pyotr Luzhin:CRP:073b61⟧",
+    "kind": "character",
+    "group": "people"
+  },
+  {
+    "slug": "alyona-ivanovna",
+    "name": "Alyona Ivanovna",
+    "epithet": "the pawnbroker · the ‘louse’",
+    "emergence": "natural",
+    "moniker": "⟦Alyona Ivanovna:CRP:9e4d13⟧",
+    "kind": "character",
+    "group": "people"
+  },
+  {
+    "slug": "lizaveta",
+    "name": "Lizaveta Ivanovna",
+    "epithet": "the gentle half-sister · the unplanned victim",
+    "emergence": "spiritual",
+    "moniker": "⟦Lizaveta Ivanovna:CRP:7c3be3⟧",
+    "kind": "character",
+    "group": "people"
+  },
+  {
+    "slug": "the-extraordinary-man-theory",
+    "name": "The Extraordinary Man",
+    "epithet": "the article that licenses murder",
+    "emergence": "ethereal",
+    "moniker": "⟦The Extraordinary Man:CRP:0cfb24⟧",
+    "kind": "thread",
+    "group": "idea"
+  },
+  {
+    "slug": "the-dream-of-the-mare",
+    "name": "The Dream of the Mare",
+    "epithet": "the beaten horse",
+    "emergence": "electrical",
+    "moniker": "⟦The Dream of the Mare:CRP:7f8ecd⟧",
+    "kind": "thread",
+    "group": "idea"
+  },
+  {
+    "slug": "lazarus",
+    "name": "The Raising of Lazarus",
+    "epithet": "the resurrection read aloud",
+    "emergence": "spiritual",
+    "moniker": "⟦The Raising of Lazarus:CRP:3c6a30⟧",
+    "kind": "thread",
+    "group": "idea"
+  },
+  {
+    "slug": "the-confession-at-the-crossroads",
+    "name": "The Crossroads Confession",
+    "epithet": "kiss the earth you defiled",
+    "emergence": "spiritual",
+    "moniker": "⟦The Crossroads Confession:CRP:5d07cf⟧",
+    "kind": "thread",
+    "group": "idea"
+  },
+  {
+    "slug": "saint-petersburg",
+    "name": "St. Petersburg",
+    "epithet": "the city as fever",
+    "emergence": "natural",
+    "moniker": "⟦St. Petersburg:CRP:732c70⟧",
+    "kind": "thread",
+    "group": "idea"
+  }
+]

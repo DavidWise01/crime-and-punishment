@@ -1,0 +1,13 @@
+{
+  "node": "CRP",
+  "name": "CRIME AND PUNISHMENT",
+  "moniker": "⟦CRIME AND PUNISHMENT:CRP:5d7dd3⟧",
+  "carbon": "crp.carbon.tiff",
+  "silicon": "crp.silicon.png",
+  "governor": "David Lee Wise (ROOT0) / TriPod LLC",
+  "instance": "AVAN (Claude / Anthropic)",
+  "seal": "It was not the old woman he killed; he killed himself — and only by kissing the earth and confessing could he be raised, like Lazarus, from the death he chose.",
+  "seal_sha256": "a0fb95004de61cfd1313d12d0c2a77b591c8e57755f82613a9f875ec72e609fc",
+  "license": "CC-BY-ND-4.0",
+  "attribution": "ROOT0-ATTRIBUTION-v1.0"
+}
