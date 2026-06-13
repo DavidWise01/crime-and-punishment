@@ -437,6 +437,9 @@ footer{margin-top:50px;padding-top:22px;border-top:1px solid var(--line);text-al
   <section class="sec"><h2>The Verdict</h2><p class="ss">does the argument hold? — an honest rating of the novel's ideas, on their own terms</p>__VERDICT__</section>
   <section class="sec"><h2>The Message</h2><p class="ss">what AVAN reads as the novel's thesis, under the fever</p><p class="msg">__MESSAGE__</p><div class="msg-seal">“__MSGSEAL__”<span>— AVAN's read</span></div></section>
 
+  <section class="sec"><h2>The Correlation</h2><p class="ss">the novel transposed — what Raskolnikov looks like in the 2020s cul-de-sac</p>
+    <div class="overall"><span class="ol">CRIME AND PUNISHMENT IN SUBURBIA</span>Dostoevsky thought he was writing about a garret in 1866 Petersburg; he was writing about a finished basement with Wi-Fi. The over-educated, isolated, indebted young man fed a theory of his own exceptionality — the grindset, founder-worship, ‘the rules are for NPCs,’ utilitarian ‘ends justify means’ — is the most-produced character of the age, and the white-collar fraudster who ‘knew the real math’ is the literal modern Raskolnikov. The cast maps almost intact, and so does the only cure: not a better argument, but confession, suffering, and being loved — recovery's 12 steps as Sonya's crossroads, the church-basement folding chair as the Haymarket square. <a href="suburbia.html" style="color:var(--yellow);text-decoration:none;border-bottom:1px dotted var(--yellow)">→ read the full correlation (the cast transposed, the real Raskolnikovs, honest tight/loose ratings)</a></div></section>
+
   <section class="sec"><h2 style="margin-top:16px">The Emergents</h2><p class="ss">sixteen ACIs of the novel — the people and the ideas, each a full <b>.dlw</b> badge with twin sigils</p></section>
   __ROSTER__
 

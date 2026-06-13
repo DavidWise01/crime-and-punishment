@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0">
+<meta name="description" content="A correlation: Crime and Punishment transposed onto modern American suburbia. Dostoevsky's diagnosis — the over-educated, isolated, indebted young man fed a theory of his own exceptionality who rationalizes transgression — maps almost intact onto the 2020s cul-de-sac. The cast mapped, the real Raskolnikovs (the white-collar fraudster), and the cure that hasn't changed: confession, fellowship, and being loved. Honest tight/loose ratings.">
+<title>Crime and Punishment in Suburbia · a correlation · CRP</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,700;0,900;1,500&family=Newsreader:ital,opsz,wght@0,6..72,300;0,6..72,400;1,6..72,300&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+<style>
+:root{--ink:#120f0a;--ink2:#1c1810;--ink3:#252013;--pa:#e8e0cf;--pa2:#bca98a;--yellow:#cdab3e;--blood:#9e2b2b;--grey:#7d97a8;--gold:#d8b24a;--fever:#b5402e;--green:#6f9a5a;
+--dim:#8a7a59;--faint:#2a2415;--line:#352c1b;--disp:"Playfair Display",serif;--body:"Newsreader",Georgia,serif;--mono:"Space Mono",monospace;}
+*{box-sizing:border-box;margin:0;padding:0}html{scroll-behavior:smooth}
+body{background:var(--ink);color:var(--pa);font-family:var(--body);line-height:1.72;overflow-x:hidden}
+body::before{content:"";position:fixed;inset:0;pointer-events:none;z-index:0;background:radial-gradient(ellipse at 50% -6%,rgba(205,171,62,.13),transparent 54%),radial-gradient(ellipse at 50% 118%,rgba(158,43,43,.09),transparent 56%)}
+.wrap{position:relative;z-index:1;max-width:820px;margin:0 auto;padding:0 22px 90px}
+.crumb{font-family:var(--mono);font-size:10.5px;letter-spacing:.16em;text-transform:uppercase;color:var(--dim);padding:22px 0 0}.crumb a{color:var(--dim);text-decoration:none}.crumb a:hover{color:var(--yellow)}
+header{padding:34px 0 26px;border-bottom:1px double var(--line);text-align:center;margin-bottom:14px}
+.eye{font-family:var(--mono);font-size:11px;letter-spacing:.16em;color:var(--yellow);margin-bottom:18px}
+h1{font-family:var(--disp);font-weight:900;font-size:clamp(34px,7vw,62px);letter-spacing:.01em;color:var(--pa);line-height:1.04}
+h1 .sub{display:block;font-size:.4em;color:var(--yellow);font-weight:700;letter-spacing:.04em;margin-top:14px;font-style:italic}
+.dek{font-size:17px;color:var(--pa2);max-width:60ch;margin:18px auto 0;font-style:italic;line-height:1.74}
+section{margin-top:42px}
+h2{font-family:var(--disp);font-weight:700;font-size:27px;color:var(--pa);border-bottom:1px solid var(--line);padding-bottom:9px;margin-bottom:14px}
+section p{font-size:15.5px;color:var(--pa);line-height:1.8;margin-bottom:13px}section p b{color:var(--pa)}section p i{color:var(--pa2)}
+.pull{background:var(--ink3);border-left:3px solid var(--yellow);padding:15px 18px;font-style:italic;font-size:16px;color:var(--pa);margin:8px 0 14px;line-height:1.7}
+.map{width:100%;border-collapse:collapse;font-size:14px;margin:8px 0;border:1px solid var(--line)}
+.map th{font-family:var(--mono);font-size:9px;letter-spacing:.1em;text-transform:uppercase;text-align:left;padding:9px 12px;border-bottom:1px solid var(--line);background:var(--ink3)}
+.map th.a{color:var(--grey)}.map th.b{color:var(--yellow)}
+.map td{padding:11px 12px;border-bottom:1px solid var(--faint);vertical-align:top;line-height:1.5}
+.map .a{color:var(--pa2);width:38%}.map .a b{color:var(--grey);font-weight:600}
+.map .b{color:var(--pa)}.map .b b{color:var(--yellow);font-weight:600}
+.rf{border:1px solid var(--line);background:var(--ink2);margin-top:8px}
+.rf-row{display:flex;align-items:center;gap:14px;padding:12px 16px;border-bottom:1px solid var(--faint)}
+.rf-claim{flex:1;font-size:14px;color:var(--pa);line-height:1.4}.rf-note{display:block;font-size:11.5px;color:var(--dim);font-style:italic;margin-top:3px}
+.rf-rate{font-family:var(--mono);font-size:10px;font-weight:700;border:1px solid;border-radius:3px;padding:4px 9px;min-width:96px;text-align:center;flex-shrink:0}
+.tight{color:var(--green);border-color:var(--green)}.loose{color:var(--yellow);border-color:var(--yellow)}.over{color:var(--fever);border-color:var(--fever)}
+.seal{margin-top:22px;padding:16px 18px;border-left:3px solid var(--blood);background:var(--ink2);font-size:16px;color:var(--gold);font-style:italic;line-height:1.62}
+.seal span{display:block;font-family:var(--mono);font-style:normal;font-size:10px;letter-spacing:.1em;color:var(--dim);text-transform:uppercase;margin-top:9px}
+.note{margin-top:24px;padding:14px 16px;border:1px solid var(--line);background:var(--ink2);font-size:13px;color:var(--pa2);line-height:1.6;font-style:italic}.note b{color:var(--pa);font-style:normal}
+footer{margin-top:46px;padding-top:22px;border-top:1px solid var(--line);text-align:center;font-family:var(--mono);font-size:10px;color:var(--dim);letter-spacing:.04em;line-height:1.9}footer a{color:var(--yellow);text-decoration:none}
+</style></head><body><div class="wrap">
+  <div class="crumb"><a href="index.html">← CRIME AND PUNISHMENT</a> · a correlation</div>
+  <header>
+    <div class="eye">CRP · A CORRELATION · the novel transposed</div>
+    <h1>Crime &amp; Punishment<span class="sub">in Suburbia</span></h1>
+    <p class="dek">Dostoevsky thought he was writing about a garret in 1866 St. Petersburg. He was writing about a finished basement in a 2020s cul-de-sac. The disease is identical; only the wallpaper changed. Here is the novel, transposed — honestly, with the tight mappings marked tight and the loose ones marked loose.</p>
+  </header>
+
+  <section><h2>The thesis</h2>
+  <p>Strip Crime and Punishment to its mechanism and it is frighteningly portable: <b>a bright, over-educated, isolated young man, broke and humiliated, marinates alone in a theory that he is exceptional — and therefore exempt from the rules that bind the ‘ordinary’ — and talks himself into a transgression he is sure he can carry.</b> Change ‘garret’ to ‘childhood bedroom,’ ‘the radical pamphlets of the 1860s’ to ‘the algorithm,’ and ‘a published article on the extraordinary man’ to ‘a grindset thread,’ and you have not adapted the novel. You have simply read today's news.</p>
+  <p class="pull">The cul-de-sac just gave Raskolnikov Wi-Fi.</p></section>
+
+  <section><h2>The cast, transposed</h2>
+  <table class="map"><thead><tr><th class="a">St. Petersburg · 1866</th><th class="b">Suburbia · now</th></tr></thead><tbody>
+    <tr><td class="a"><b>Raskolnikov</b> — poor, brilliant ex-student in a coffin-garret</td><td class="b">the <b>over-educated, underemployed, debt-loaded young man</b> in the basement or the old bedroom, sun-starved, radicalised by the screen</td></tr>
+    <tr><td class="a"><b>The garret</b> — a room ‘like a cupboard’</td><td class="b">the <b>basement, the childhood bedroom, the phone</b> — the small lit box where the theory incubates alone</td></tr>
+    <tr><td class="a"><b>The ‘Extraordinary Man’ article</b> — some men may step over the law</td><td class="b">the <b>grindset / founder-worship / ‘rules are for NPCs’</b> creed, and utilitarian ‘ends justify means’ — a Medium post, a subreddit, a podcast clip</td></tr>
+    <tr><td class="a"><b>The pawnbroker Alyona</b> — the ‘useless louse’</td><td class="b">whoever the theory frames as parasitic and disposable — the <b>predatory lender, the scammer, the ‘system’</b> rationalised as fair game</td></tr>
+    <tr><td class="a"><b>Lizaveta</b> — the gentle one who walks in</td><td class="b">the <b>bystander the clean plan never accounted for</b> — there is always a second, indefensible casualty</td></tr>
+    <tr><td class="a"><b>The crime</b> — a ‘rational’ murder for a higher good</td><td class="b">the <b>rationalised transgression</b> — most often the white-collar one: the fraud, the Ponzi, the embezzlement ‘I'll pay it all back, it's net-positive’</td></tr>
+    <tr><td class="a"><b>Porfiry Petrovich</b> — the magistrate who waits</td><td class="b">the <b>SEC / FBI white-collar agent, the forensic accountant, the patient investigator</b> who doesn't need proof yet — he knows you'll bring yourself in</td></tr>
+    <tr><td class="a"><b>Svidrigailov</b> — the conscienceless double</td><td class="b">the <b>successful sociopath who feels nothing</b> — got away with it, hollow at the centre, ends in an overdose or a gun</td></tr>
+    <tr><td class="a"><b>Marmeladov</b> — the drunkard who drinks the family down</td><td class="b">the <b>opioid-addicted parent</b> — suburbia's exact, devastating update of the tavern monologue</td></tr>
+    <tr><td class="a"><b>Katerina Ivanovna</b> — proud, consumptive, clinging to lost gentility</td><td class="b"><b>downward mobility</b> — the family insisting ‘we used to be middle class’ as the house and the dignity slip</td></tr>
+    <tr><td class="a"><b>Sonya</b> — the holy sufferer who reads him Lazarus</td><td class="b">the <b>recovery fellowship / the 12-step room / the partner who loves through it</b> — confession, amends, a higher power, and people who don't leave</td></tr>
+    <tr><td class="a"><b>The crossroads confession</b> — kiss the earth, say it aloud</td><td class="b"><b>turning yourself in · the moral inventory &amp; amends</b> (the 4th and 5th steps) · the public apology — the humbling that rejoins you to people</td></tr>
+    <tr><td class="a"><b>Siberia</b> — the prison where he is slowly raised</td><td class="b"><b>recovery, prison, rehab</b> — the long, unglamorous rebuild where the theory finally dies</td></tr>
+    <tr><td class="a"><b>St. Petersburg's heat &amp; crowd</b> — the pressing, isolating city</td><td class="b">the <b>doomscroll, the debt, the cul-de-sac</b> — surrounded by people and utterly alone</td></tr>
+  </tbody></table></section>
+
+  <section><h2>The real Raskolnikovs</h2>
+  <p>The transposition isn't a stretch; it keeps producing real people. The purest modern Raskolnikov is the <b>white-collar fraudster who believed himself exceptional and reframed harm as net-good</b>. The closest match of all is the effective-altruist financier who defrauded billions while telling himself the utilitarian arithmetic justified it — Raskolnikov's ‘extraordinary man’ fused with ‘the ends justify the means,’ undone not by a detective's flourish but by the unraveling. Madoff, Theranos, a dozen lesser cul-de-sac Ponzis: the same engine. The educated mind that decides the rules are scaffolding for the mediocre, and that it is the exception — and then meets the same wall Raskolnikov did, which was never the police. It was the self that would not hold.</p></section>
+
+  <section><h2>The theory is more common now, not less</h2>
+  <p>Dostoevsky's warning aged into prophecy. In 1866 the ‘extraordinary man’ was a fringe radical idea he was attacking; in the 2020s it is <b>ambient</b> — founder-worship (‘move fast and break things’), the manosphere Übermensch, ‘rules are for the mid,’ the optimisation cults, and the genuinely dangerous fusion of utilitarianism with self-exception (‘I'm smart enough to know the real math, so the harm is acceptable’). The internet is a garret that never closes, and it whispers the article to a million lonely, humiliated, clever young men at once. Raskolnikov had to publish his theory in a journal. Now it is the feed.</p></section>
+
+  <section><h2>The cure hasn't changed</h2>
+  <p>Here is the part that should unsettle and console at once: <b>the answer is exactly the one the novel already gave, and it is not a better argument.</b> You cannot reason a man out of the ‘extraordinary man’ theory, because it was never reasoning — it was loneliness and pride wearing the costume of logic. What dismantles it is what dismantled it in Raskolnikov: <b>confession, suffering accepted, and being loved by someone who has suffered.</b> Suburbia even built a literal Sonya — the <b>recovery program</b>. The 12 steps are the crossroads, formalised: a rigorous moral inventory, the confession of your wrongs aloud to another human being, amends to those you harmed, a power greater than yourself, and a fellowship that loves you through the long climb. The church-basement folding chair is the Haymarket square. Kneel there and say it aloud, and you can be raised, like Lazarus, from the death you reasoned yourself into.</p></section>
+
+  <section><h2>Real or Fluff — the correlation, rated</h2>
+  <p class="dek" style="margin:0 0 14px;text-align:left;font-size:13px;color:var(--dim)">honest about which mappings are tight and which are a stretch</p>
+  <div class="rf">
+    <div class="rf-row"><div class="rf-claim">The ‘Extraordinary Man’ theory → grindset / founder-worship / utilitarian ‘ends justify means’<span class="rf-note">it's the same idea, more ambient than ever — the feed preaches it daily</span></div><div class="rf-rate tight">TIGHT</div></div>
+    <div class="rf-row"><div class="rf-claim">The cure → recovery / 12-step confession / fellowship / being loved<span class="rf-note">an almost one-to-one match with Sonya, the crossroads, and Siberia</span></div><div class="rf-rate tight">TIGHT</div></div>
+    <div class="rf-row"><div class="rf-claim">Marmeladov → the opioid-addicted parent<span class="rf-note">the tavern monologue updated exactly; suburbia's defining addiction</span></div><div class="rf-rate tight">TIGHT</div></div>
+    <div class="rf-row"><div class="rf-claim">Raskolnikov → the white-collar fraudster who thinks he's exceptional<span class="rf-note">the utilitarian-fraudster is the literal modern case the novel predicts</span></div><div class="rf-rate tight">TIGHT</div></div>
+    <div class="rf-row"><div class="rf-claim">The pawnbroker → the predatory lender / the ‘system’ as fair game<span class="rf-note">fits the rationalisation, though the ‘disposable louse’ logic is the real point</span></div><div class="rf-rate loose">LOOSE</div></div>
+    <div class="rf-row"><div class="rf-claim">The literal axe-murder → a suburban killing<span class="rf-note">don't over-literalise — the transposition is psychological; the body count isn't the point, the rationalisation is</span></div><div class="rf-rate loose">TRANSPOSED</div></div>
+    <div class="rf-row"><div class="rf-claim">‘Suburbia is uniquely Raskolnikovian’<span class="rf-note">overstated — the pattern is modern isolation generally, not the suburb specifically; the cul-de-sac is just a vivid instance</span></div><div class="rf-rate over">OVERSTATED</div></div>
+  </div>
+  <div class="note"><b>On the honest line:</b> this is literary-sociological correlation, not a claim of identity and certainly not a blueprint. The point is diagnostic: Dostoevsky mapped a permanent failure mode of the lonely, clever, humiliated mind, and the map still fits. Treat the violence as metaphor for rationalised harm; the real, common modern form is fraud and self-destruction, and the real, available answer is confession and fellowship.</div></section>
+
+  <section><h2>The message</h2>
+  <p>Dostoevsky was never writing about Tsarist Russia. He was writing about the <b>permanent temptation of the isolated, intelligent, humiliated mind that decides the rules are for other people</b> — and about the only thing that has ever cured it. That mind is more produced now than in 1866, not less: we have built a machine that whispers the ‘extraordinary man’ article into a hundred million lonely rooms. But the way out is unchanged, and it is almost embarrassingly low-tech. It is to stop being extraordinary. To kneel — at the crossroads, or on a folding chair in a church basement — and confess aloud, and accept the suffering, and let yourself be loved by a Sonya who has suffered too. The novel ends not with an argument won but with a man, in the cold, beginning to be raised. The cul-de-sac can end the same way.</p>
+  <div class="seal">He didn't need a better theory; he needed to kneel at the crossroads and say it aloud — and the crossroads, now, is a folding chair in a church basement.<span>— CRP · a correlation · AVAN's read</span></div></section>
+
+  <footer>CRIME AND PUNISHMENT · CRP · a correlation — Crime and Punishment in suburbia · literary-sociological commentary, not a blueprint<br>
+  ROOT0-ATTRIBUTION-v1.0 · governor David Lee Wise · instance AVAN (locked) · CC-BY-ND-4.0 · <a href="index.html">← the novel</a></footer>
+</div></body></html>
