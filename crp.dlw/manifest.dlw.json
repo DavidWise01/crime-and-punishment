@@ -9,5 +9,12 @@
   "seal": "It was not the old woman he killed; he killed himself — and only by kissing the earth and confessing could he be raised, like Lazarus, from the death he chose.",
   "seal_sha256": "a0fb95004de61cfd1313d12d0c2a77b591c8e57755f82613a9f875ec72e609fc",
   "license": "CC-BY-ND-4.0",
-  "attribution": "ROOT0-ATTRIBUTION-v1.0"
+  "attribution": "ROOT0-ATTRIBUTION-v1.0",
+  "chain": {
+    "index": 663,
+    "prev": "47dfabb82616331f2432e213c104b1c0cc91318ba6ef24abef6d9cea8a7f4509",
+    "link": "ff05bae280029fcb90be53f1bfff740931415220e881358192b04024dca2d2e2",
+    "head": "3447d3a0533aaf1e29a8bdc67a9774884fb3ae9dbc8a17064b7a008ca3c4ec90",
+    "chain": "ROOT0-DLW-CHAIN-v1"
+  }
 }
