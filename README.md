@@ -414,3 +414,68 @@ Browser gameplay evidence is session-only; authored assets and this ledger are G
 **Film F007 — Aftermath and Witnesses:** any next symbolic film study should distinguish observed consequences, uncertain causal claims and others’ choices. Natural invariant: `narrative closure != demonstrated restoration`.
 
 **Crosswalk 007:** The moment of consequence becomes part of the record even when later explanations change.
+
+
+---
+
+## CRP natural invariant 007 — The Irreversible Record · 2026-11-09
+
+**Release:** The independently playable [Book B007](episodes/B007-the-crossing.html) and [Film F007](episodes/F007-aftermath-witnesses.html) are committed with original non-graphic Canvas2D sprite storytelling, three contextual comic panels per episode, six spatially inspectable witnesses, and comparison/seal gates. **The book's Part One is now completely represented by seven playable episodes B001–B007.** The film track F001–F007 contains seven original interpretive episode studies. There are **14 playable episodes**, 42 embedded episode-level comic panels, and six new front-page illustrations. All **41** book reading units remain mapped; seven are playable.
+
+### Book B007 — The Crossing and Its Cost · Part One Chapter Seven
+
+- The original three-scene sprite chapter presents a closed threshold, two absent victims and the unsettled aftermath, without violence visuals or procedural detail
+- The novel's source events are stated without euphemism: Raskolnikov kills **Alyona Ivanovna and Lizaveta**; the latter's death must not disappear from the record or be treated merely as collateral to his rationalization
+- Six spatial witnesses preserve the boundary of action, the actor's responsibility, Alyona's death, Lizaveta's death, emotional shock and the surviving record; two further gates compare and seal, for eight checkpoints
+- **Natural invariant:** `theory of harm != freedom from responsibility`. A claim of moral exceptionalism does not nullify a victim's humanity, the deaths or the actor's agency
+- Book Part One is complete. Next: **B008 — Part Two, Chapter One**, the police summons and the beginning of the feverish aftermath. The next invariant asks whether a summons or fear constitutes proof of a particular accusation
+
+### Film F007 — Aftermath and Witnesses
+
+- A new **original film-inspired interpretive study**, not a literal or exhaustive storyboard of the 2000 copyrighted movie, with three symbolic sprite scenes: surviving witness, public account and an open future
+- Six witnesses preserve the affected person's perspective, the limits of memory, the public story, incomplete evidence, a survivor's agency and the future not established by narrative closure
+- Eight total checkpoints, keyboard/touch controls, optional synthesized sound, and three original episode cartoons. The film guide adds a separate original three-panel F007 sequence
+- **Natural invariant:** `narrative closure != demonstrated restoration`. An apparent final explanation or confession cannot certify healing, restitution, or voluntary forgiveness
+
+### The sixth source-crosswalk — 007
+
+[**Witness Crosswalk 007 — The Irreversible Record**](witness-crosswalk-007.html) is a separately committed, original two-panel illustrated analysis. The record is source-labeled, the novel is not conflated with the film, and neither artwork nor prose recreates film scenes:
+
+```text
+BOOK B007                         FILM F007
+    |                                 |
+Theory becomes actual harm        Narrative moves toward an ending
+    |                                 |
+Alyona and Lizaveta die           Affected witnesses still exist
+    |                                 |
+Responsibility survives           Restoration remains unverified
+    +----------------+----------------+
+                     |
+                WITNESS AUDIT
+                     |
+        THEORY        != FREEDOM FROM RESPONSIBILITY
+        REMORSE       != REVERSED HARM
+        STORY ENDING  != DEMONSTRATED RESTORATION
+        LATER CLAIM   != ERASED EARLIER WITNESS
+                     |
+                | PRESERVE |
+```
+
+### Persistent release update
+
+- [Updated dual-world arcade](sprite-arcade.html) features B007/F007, the six newest original homepage cartoons and direct links to the previous twelve episode releases
+- [Full novel atlas](book-atlas.html) still maps 41 reading units; all seven Part One units are marked playable and the following 34 remain mapped but not yet implemented as games
+- [Film guide](film-guide.html) now links F001–F007 and has three new original F007 contextual sprites while retaining the earlier illustrations
+- [Original novel homepage](index.html) retains the original extensive CRP corpus and surfaces the B007/F007 launch and Crosswalk 007
+- [Verification-only GitHub Actions](.github/workflows/sprite-pages.yml) validates the 14 individual game files, crosswalks 002–007 (six comparisons), 41-unit atlas, six current homepage cartoons and three original panels in each recent episode. The pre-existing GitHub Pages workflow is the **sole** publisher
+- Existing `suburbia.html`, the `agents/` archive, `crp.dlw/`, and earlier authored episodes are unmodified
+
+**Evidence integrity:** Git holds authored content and the append-only release ledger. Browser play-session logs remain ephemeral. A successful validation workflow is not proof that the GitHub Pages deployment has completed: inspect the final workflow separately before asserting publication.
+
+### Next natural invariant — 008
+
+**Book B008 — The Summons and Fever (Part Two Chapter One):** A police summons concerning a debt and Raskolnikov's acute fear must be distinguished from an established accusation of his crimes. Invariant: `a summons != proof of the feared charge`.
+
+**Film F008 — The Burden of Evidence (original thematic study):** The difference between a persuasive public story, independent corroboration and an affected person's continued agency. Invariant: `a shared narrative != an independently verified account`.
+
+**Crosswalk 008:** Compare how guilt, official authority, memory and testimony affect interpretation without rewriting the irreversible Part One witnesses.
