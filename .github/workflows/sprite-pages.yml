@@ -11,6 +11,7 @@ on:
       - 'witness-crosswalk-003.html'
       - 'witness-crosswalk-004.html'
       - 'witness-crosswalk-005.html'
+      - 'witness-crosswalk-006.html'
       - 'suburbia.html'
       - 'episodes/**'
       - 'agents/**'
@@ -34,7 +35,7 @@ jobs:
         shell: bash
         run: |
           set -euo pipefail
-          for path in index.html sprite-arcade.html film-guide.html book-atlas.html witness-crosswalk-002.html suburbia.html episodes/B001-garret.html episodes/B002-marmeladovs-tavern.html episodes/B003-the-letter.html episodes/B004-the-street.html episodes/B005-the-dream.html episodes/F001-perfect-surface.html episodes/F002-fracture.html episodes/F003-competing-accounts.html episodes/F004-consequence.html episodes/F005-confession.html witness-crosswalk-003.html witness-crosswalk-004.html witness-crosswalk-005.html README.md; do
+          for path in index.html sprite-arcade.html film-guide.html book-atlas.html witness-crosswalk-002.html suburbia.html episodes/B001-garret.html episodes/B002-marmeladovs-tavern.html episodes/B003-the-letter.html episodes/B004-the-street.html episodes/B005-the-dream.html episodes/B006-the-preparation.html episodes/F001-perfect-surface.html episodes/F002-fracture.html episodes/F003-competing-accounts.html episodes/F004-consequence.html episodes/F005-confession.html episodes/F006-after-admission.html witness-crosswalk-003.html witness-crosswalk-004.html witness-crosswalk-005.html witness-crosswalk-006.html README.md; do
             test -s "$path"
             echo "PASS: $path"
           done
@@ -43,14 +44,14 @@ jobs:
           import re
           html = Path('sprite-arcade.html').read_text(encoding='utf-8')
           assert html.count('data-panel=') == 6, 'Expected six homepage panels'
-          assert all(p in html for p in ('episodes/B001-garret.html','episodes/B002-marmeladovs-tavern.html','episodes/B003-the-letter.html','episodes/B004-the-street.html','episodes/B005-the-dream.html','episodes/F001-perfect-surface.html','episodes/F002-fracture.html','episodes/F003-competing-accounts.html','episodes/F004-consequence.html','episodes/F005-confession.html','witness-crosswalk-002.html','witness-crosswalk-003.html','witness-crosswalk-004.html','witness-crosswalk-005.html'))
+          assert all(p in html for p in ('episodes/B001-garret.html','episodes/B002-marmeladovs-tavern.html','episodes/B003-the-letter.html','episodes/B004-the-street.html','episodes/B005-the-dream.html','episodes/B006-the-preparation.html','episodes/F001-perfect-surface.html','episodes/F002-fracture.html','episodes/F003-competing-accounts.html','episodes/F004-consequence.html','episodes/F005-confession.html','episodes/F006-after-admission.html','witness-crosswalk-002.html','witness-crosswalk-003.html','witness-crosswalk-004.html','witness-crosswalk-005.html','witness-crosswalk-006.html'))
           atlas = Path('book-atlas.html').read_text(encoding='utf-8')
           assert atlas.count('class="chapter"') == 41, 'Expected 41 book reading units'
-          for episode in ('episodes/B002-marmeladovs-tavern.html','episodes/B003-the-letter.html','episodes/B004-the-street.html','episodes/B005-the-dream.html','episodes/F002-fracture.html','episodes/F003-competing-accounts.html','episodes/F004-consequence.html','episodes/F005-confession.html'):
+          for episode in ('episodes/B002-marmeladovs-tavern.html','episodes/B003-the-letter.html','episodes/B004-the-street.html','episodes/B005-the-dream.html','episodes/B006-the-preparation.html','episodes/F002-fracture.html','episodes/F003-competing-accounts.html','episodes/F004-consequence.html','episodes/F005-confession.html','episodes/F006-after-admission.html'):
             data = Path(episode).read_text(encoding='utf-8')
             assert data.count('data-comic=') == 3, f'Expected three original cartoon panels: {episode}'
             assert 'COMPARE WITNESSES' in data and 'SEAL EPISODE' in data
-          print('PASS: ten playable episodes; six front-page panels; 41-unit atlas; five crosswalks and audit controls')
+          print('PASS: twelve playable episodes; six front-page panels; 41-unit atlas; six crosswalks and audit controls')
           PY
 # The repository's existing Pages build-and-deployment workflow owns publication.
 # This workflow verifies source completeness without competing for github-pages deployment.
