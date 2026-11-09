@@ -32,7 +32,7 @@ The long-standing **CRP / UD0** novel archive and all original `agents/*` and `c
 - [**2000 film guide**](film-guide.html): verified film identity and principal cast, distinct narrative discussion beats, content framing, original sprite panels and non-equivalence matrix
 - [**Existing novel archive**](index.html): its substantial literary and character corpus is retained; a front-page entry link now surfaces the sprite arcade
 - [**Existing suburbia essay**](suburbia.html): preserved as an original contemporary-society correlation, distinguished explicitly from Rob Schmidt's film
-- [**GitHub Pages workflow**](.github/workflows/sprite-pages.yml): validates necessary artifacts and publishes the full static repository using GitHub Actions
+- [**Artifact verification workflow**](.github/workflows/sprite-pages.yml): validates necessary source artifacts; the repository's existing Pages build-and-deployment workflow is the sole publisher
 
 ### Governing evidence rule
 
@@ -60,7 +60,7 @@ Commit history preserves release provenance. Browser observations are **session-
 
 ### Publishing
 
-The intended URL is **https://davidwise01.github.io/crime-and-punishment/** for the original novel archive, with **https://davidwise01.github.io/crime-and-punishment/sprite-arcade.html** for the dual-world arcade. The repository must have **Settings → Pages → Build and deployment → Source: GitHub Actions** to use the committed custom workflow. A successful commit is not by itself proof of successful public Pages deployment; inspect the latest GitHub Actions run.
+The intended URL is **https://davidwise01.github.io/crime-and-punishment/** for the original novel archive, with **https://davidwise01.github.io/crime-and-punishment/sprite-arcade.html** for the dual-world arcade. The repository's existing Pages build-and-deployment workflow handles publication; the committed custom workflow is validation-only and does not deploy. A successful commit is not by itself proof of successful public Pages deployment; inspect the latest GitHub Actions run.
 
 ### Sources and rights
 
@@ -128,7 +128,7 @@ Observed suffering               Private harm and incomplete views
 - [Full novel atlas](book-atlas.html) now identifies Part One Chapter Two as playable B002, without claiming all 41 reading units have been implemented
 - [2000 film guide](film-guide.html) now includes a new symbolic F002 triptych and comparison link; F001 panels are retained
 - [Original novel home](index.html) links to B002/F002 and crosswalk while preserving the existing 110 KB original corpus
-- [Pages workflow](.github/workflows/sprite-pages.yml) tests all four authored episodes, exact homepage panel count, the 41-unit atlas, and the crosswalk before deployment
+- [Validation-only workflow](.github/workflows/sprite-pages.yml) tests all four authored episodes, exact homepage panel count, the 41-unit atlas, and the crosswalk; the existing GitHub Pages workflow alone handles deployment
 - [Existing suburbia correlation essay](suburbia.html), agents, and `crp.dlw` records are not modified
 
 **Release integrity:** Git versions contain authored files and an append-only release ledger; browser play events remain session-local and are not Git commits. A successful commit must be distinguished from a successful GitHub Pages run.
@@ -140,3 +140,8 @@ Observed suffering               Private harm and incomplete views
 **F003:** claims, protection, responsibility and partial photographic evidence. Witness boundary: `visible image != complete event`.
 
 **Crossworld-003:** distinguish who reports a harm, who observed it, who acts on it, and who is held responsible. Keep interpretation source-labeled and avoid a false one-to-one character analogy.
+
+
+### Pages publication collision audit — corrected 2026-11-09
+
+Two simultaneous Pages deployers created a GitHub deployment race after bound 002. The artifact verification steps passed, but publishing failed with `Deployment request failed ... due to in progress deployment` while the previous deployment was active. The custom workflow has therefore been changed to **verification only**, with a separate concurrency group `crp-sprite-validation`, leaving the existing `pages build and deployment` job as the sole publisher. This is a workflow integrity fix, not a change to B001, F001 or the pre-existing CRP corpus. Source commit completion and public deployment remain distinct statuses. Check the latest [GitHub Actions runs](https://github.com/DavidWise01/crime-and-punishment/actions) for current publication status.
