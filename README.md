@@ -212,3 +212,71 @@ Reported willingness              Partial visual evidence
 **F004:** The consequential difference between observed conduct, testimony, accusation and legal accountability. Natural invariant: `accusation != established responsibility`.
 
 **Crosswalk 004:** Compare how power affects testimony and how the consequences of an action remain real regardless of an actor's preferred explanation.
+
+
+---
+
+## CRP natural bound 004 — Agency and Consequence · 2026-11-09
+
+**Release:** New playable chapters [Book B004](episodes/B004-the-street.html) and [Film F004](episodes/F004-consequence.html) are committed as independent original Canvas2D sprite adventures. There are **eight playable episodes** across both tracks (B001–B004 and F001–F004). The novel atlas continues to map **41 reading units**, of which four have playable releases. The six latest homepage panels are newly drawn; earlier original episode art remains in previous HTML files.
+
+### Book B004 — The Street and the Stranger · Part One Chapter Four
+
+- Three original sprite locations: the street encounter, request for police assistance, and Raskolnikov's later skeptical reversal
+- Six scene witnesses: the vulnerable stranger, suspicious follower, police officer, money offered for safe transport, Raskolnikov's doubt, and comparison with Dunya's sacrifice
+- Eight checkpoints (six observations, source comparison, seal), optional sound, touch/keyboard navigation and three original context-comic panels
+- **Natural invariant:** `observed vulnerability != authority over another person`. Noticing distress can motivate appropriate help without conferring possession of the other's agency. Later doubt does not erase an earlier action
+- The novel's street episode is treated sensitively: no sexualized or graphic depiction of the vulnerable young stranger
+- Next book boundary: **B005 — The Dream** (Part One Chapter Five), a nightmare of cruelty and the distinction between witnessed harm and any theory claimed to justify it
+
+### Film F004 — Consequence and Attribution
+
+- Three non-graphic, **symbolic analytical** scenes: an allegation, an incomplete evidence table, and the social cost of blame
+- Six inspectable witnesses distinguish a reported accusation, suspicion, time gaps, testimony, collateral consequences, and unverified responsibility
+- Eight checkpoints, optional sound, keyboard/touch input and original triple-panel sprite comic; three new homepage drawings and three film-guide sprites
+- **Natural invariant:** `accusation != established responsibility`. A person being named or suffering consequences does not prove they caused an event. Direct observation, attributed testimony and independent corroboration remain separate
+- Film F004 is an interpretive study rather than an asserted literal storyboard, a legal verdict, or a reproduction of movie footage/dialogue
+- Next film boundary: **F005 — Confession and Consequence**, asking what admission changes and what it cannot erase
+
+### Witness Crosswalk 004
+
+[**Crosswalk 004 — Intervention and Consequence**](witness-crosswalk-004.html) draws an original 2-panel comparison between the novel's vulnerable stranger and the film study's unverified accusation. It rejects simplistic character mapping and preserves these four distinctions:
+
+```text
+ BOOK B004                         FILM F004
+    |                                  |
+Observed distress                A reported allegation
+    |                                  |
+An attempt to help               Suspect and testimony
+    |                                  |
+Raskolnikov doubts               Consequences of blame
+    +----------------+-----------------+
+                     |
+               { WITNESS }
+                     |
+       VULNERABILITY != LOST AGENCY
+       INTERVENTION   != GUARANTEED OUTCOME
+       ACCUSATION     != PROVEN RESPONSIBILITY
+       CONSEQUENCE    != VERIFIED CAUSE
+                     |
+                | PRESERVE |
+```
+
+### Updated persistent outputs
+
+- [Dual-world arcade](sprite-arcade.html) features B004/F004, retains explicit links to the earlier six playable chapters, and draws six new contextual sprite panels
+- [Illustrated 41-unit novel atlas](book-atlas.html) marks Part I Chapters 1–4 playable, with the remaining 37 novel reading units still mapped
+- [2000 film guide](film-guide.html) features the new film study, three separate new original art panels and the earlier F003/F002/F001 paths
+- [Original novel homepage](index.html) includes B004/F004 and Crosswalk 004 while preserving its original ~110 KB corpus
+- [Verification-only GitHub Actions workflow](.github/workflows/sprite-pages.yml) checks eight playable episodes, all required file paths, six homepage panels, 41 mapped reading units and the original per-chapter artwork; the built-in Pages workflow remains the only publisher
+- Existing `suburbia.html`, pre-existing agents and `crp.dlw` files were not modified
+
+**Persistence and caveats:** Git commits document authored release content. The browser game journal is only in-session, not remotely persisted. Passing source verification is separate from proving a completed GitHub Pages deployment.
+
+### Next natural bound — 005
+
+**Book B005 — The Dream:** Raskolnikov's childhood memory and nightmare of a brutalized horse. Natural invariant: `witnessed suffering != moral permission for cruelty`. Original sprite representation should be non-graphic and empathetic, not an act-reconstruction tutorial.
+
+**Film F005 — Confession and Consequence:** Attribution, truthfulness, responsibility and repair. Natural invariant: `confession != erased harm`.
+
+**Crosswalk 005:** Separate the immediate witness of suffering, later memory, and an institution's response from any claimed moral conclusion.
