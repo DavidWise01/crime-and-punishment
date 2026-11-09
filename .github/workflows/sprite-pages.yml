@@ -7,6 +7,7 @@ on:
       - 'sprite-arcade.html'
       - 'film-guide.html'
       - 'book-atlas.html'
+      - 'witness-crosswalk-002.html'
       - 'suburbia.html'
       - 'episodes/**'
       - 'agents/**'
@@ -35,7 +36,7 @@ jobs:
         shell: bash
         run: |
           set -euo pipefail
-          for path in index.html sprite-arcade.html film-guide.html book-atlas.html suburbia.html episodes/B001-garret.html episodes/F001-perfect-surface.html README.md; do
+          for path in index.html sprite-arcade.html film-guide.html book-atlas.html witness-crosswalk-002.html suburbia.html episodes/B001-garret.html episodes/B002-marmeladovs-tavern.html episodes/F001-perfect-surface.html episodes/F002-fracture.html README.md; do
             test -s "$path"
             echo "PASS: $path"
           done
@@ -44,8 +45,14 @@ jobs:
           import re
           html = Path('sprite-arcade.html').read_text(encoding='utf-8')
           assert html.count('data-panel=') == 6, 'Expected six homepage panels'
-          assert 'episodes/B001-garret.html' in html and 'episodes/F001-perfect-surface.html' in html
-          print('PASS: both playable tracks and six original artwork panels')
+          assert all(p in html for p in ('episodes/B001-garret.html','episodes/B002-marmeladovs-tavern.html','episodes/F001-perfect-surface.html','episodes/F002-fracture.html','witness-crosswalk-002.html'))
+          atlas = Path('book-atlas.html').read_text(encoding='utf-8')
+          assert atlas.count('class="chapter"') == 41, 'Expected 41 book reading units'
+          for episode in ('episodes/B002-marmeladovs-tavern.html','episodes/F002-fracture.html'):
+            data = Path(episode).read_text(encoding='utf-8')
+            assert data.count('data-comic=') == 3, f'Expected three original cartoon panels: {episode}'
+            assert 'COMPARE WITNESSES' in data and 'SEAL EPISODE' in data
+          print('PASS: four playable episodes; six front-page panels; 41-unit atlas; crosswalk and audit controls')
           PY
       - name: Configure Pages
         uses: actions/configure-pages@v5
