@@ -1,4 +1,4 @@
-name: Publish CRP Book & Film Sprite Pages
+name: Verify CRP Dual-World Sprite Artifacts
 on:
   push:
     branches: [main]
@@ -18,17 +18,12 @@ on:
   workflow_dispatch:
 permissions:
   contents: read
-  pages: write
-  id-token: write
 concurrency:
-  group: pages
-  cancel-in-progress: false
+  group: crp-sprite-validation
+  cancel-in-progress: true
 jobs:
-  publish:
+  verify:
     runs-on: ubuntu-latest
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - name: Check out the canonical archive
         uses: actions/checkout@v4
@@ -54,12 +49,5 @@ jobs:
             assert 'COMPARE WITNESSES' in data and 'SEAL EPISODE' in data
           print('PASS: four playable episodes; six front-page panels; 41-unit atlas; crosswalk and audit controls')
           PY
-      - name: Configure Pages
-        uses: actions/configure-pages@v5
-      - name: Upload static files
-        uses: actions/upload-pages-artifact@v4
-        with:
-          path: .
-      - name: Deploy
-        id: deployment
-        uses: actions/deploy-pages@v4
+# The repository's existing Pages build-and-deployment workflow owns publication.
+# This workflow verifies source completeness without competing for github-pages deployment.
