@@ -6,6 +6,7 @@ on:
       - 'index.html'
       - 'sprite-arcade.html'
       - 'film-guide.html'
+      - 'book-atlas.html'
       - 'suburbia.html'
       - 'episodes/**'
       - 'agents/**'
@@ -34,7 +35,7 @@ jobs:
         shell: bash
         run: |
           set -euo pipefail
-          for path in index.html sprite-arcade.html film-guide.html suburbia.html episodes/B001-garret.html episodes/F001-perfect-surface.html README.md; do
+          for path in index.html sprite-arcade.html film-guide.html book-atlas.html suburbia.html episodes/B001-garret.html episodes/F001-perfect-surface.html README.md; do
             test -s "$path"
             echo "PASS: $path"
           done
