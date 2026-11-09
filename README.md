@@ -348,3 +348,69 @@ Child's compassion                  Persistent consequences
 **Film F006 — After the Admission:** accountability and continuing consequence. Proposed invariant: `acknowledgment != completed repair`.
 
 **Crosswalk 006:** How knowledge, pressure and available choices affect responsibility without rewriting earlier witnesses.
+
+
+---
+
+## CRP natural invariant 006 — Opportunity and Repair · 2026-11-09
+
+**Release:** Book B006 and Film F006 are separately committed playable Canvas2D episodes. The dual-world arcade now links **12 playable episodes** (B001–B006 and F001–F006), with **36 chapter-level contextual sprite panels** and six new original drawings on its homepage. The complete novel reading atlas contains 41 units, **six** of which now have playable book episodes.
+
+### Book B006 — The Preparation and the Chance · Part One Chapter Six
+
+- [Play original Book B006](episodes/B006-the-preparation.html): three scenes on overheard information, an argument that purports to justify violence, and the still-available choice not to act
+- Six inspectable spatial witnesses: schedule remark, limits of its speaker, moral argument, those invoked in the calculation, capacity to refuse and the un-crossed threshold
+- Eight evidence checkpoints (six observations, compare, seal), keyboard/touch navigation, optional WebAudio and three contextual original sprite-cartoon panels
+- **Invariant:** `opportunity != obligation to act`. A convenient circumstance neither commands an action nor transforms rationalization into moral permission
+- No violence procedure, crime tutorial or graphic reconstruction is depicted. Next novel unit: **B007 — The Crossing**, Part One Chapter Seven
+
+### Film F006 — After the Admission
+
+- [Play original Film F006](episodes/F006-after-admission.html): a separate, symbolic source study, not a frame-accurate reconstruction of the 2000 movie
+- Three scenes: admission and evidentiary gaps; an affected person’s agency; practical accountability and uncertain future repair
+- Six inspectable witnesses, compare/seal gates, three original illustrated sprite panels, sound toggle and keyboard/touch inputs
+- **Invariant:** `acknowledgment != completed repair`. Responsibility requires later actions, independently evaluated consequences and respect for another person’s choice not to forgive
+- Three new film-guide contextual sprites accompany the new homepage triptych. Future interpretation must not claim an outcome that the source does not establish
+
+### Cross-world audit 006
+
+[**Witness Crosswalk 006 — Opportunity and Repair**](witness-crosswalk-006.html) has two original illustrated comparison panels. It keeps the 1866 novel and copyrighted film separate and preserves the following source distinctions:
+
+```text
+BOOK B006                         FILM F006
+    |                                |
+Chance information             Spoken acknowledgment
+    |                                |
+Possible opportunity           Corroboration still needed
+    |                                |
+A decision remains             Sustained repair still needed
+    +----------------+---------------+
+                     |
+                { WITNESS }
+                     |
+       OPPORTUNITY     != OBLIGATION
+       JUSTIFICATION   != MORAL LICENSE
+       ACKNOWLEDGMENT  != COMPLETED REPAIR
+       PROMISE         != VERIFIED RESULT
+                     |
+                | PRESERVE |
+```
+
+### Permanent updates and verification
+
+- [Dual-world arcade](sprite-arcade.html) features B006 and F006 and six latest original contextual Canvas2D drawings; earlier ten episodes remain directly linked
+- [Full book atlas](book-atlas.html) maps all 41 reading units and identifies B001–B006 as playable
+- [Film guide](film-guide.html) links all six film-inspired episode tracks and retains earlier sprite studies alongside the three new F006 panels
+- [Original novel archive](index.html) remains in place with added B006/F006 links
+- [CI source-verification workflow](.github/workflows/sprite-pages.yml) validates all 12 playable episode files, all six crosswalks, the 41-unit atlas, three original panels per latest episode, six homepage panels and their links. The existing GitHub Pages workflow alone owns publication
+- Existing `suburbia.html`, agents and `crp.dlw` manifests remain unchanged
+
+Browser gameplay evidence is session-only; authored assets and this ledger are Git-versioned. A successful source verification is **not** proof of a completed public Pages deployment. The GitHub workflow status must be checked separately.
+
+### Next natural invariant — 007
+
+**Book B007 — The Crossing:** the consequential act, guilt and the divergence between prior theory and actual harm. Use non-graphic aftermath rather than procedural crime depiction. Natural invariant: `a theory about permissible harm != relief from responsibility`.
+
+**Film F007 — Aftermath and Witnesses:** any next symbolic film study should distinguish observed consequences, uncertain causal claims and others’ choices. Natural invariant: `narrative closure != demonstrated restoration`.
+
+**Crosswalk 007:** The moment of consequence becomes part of the record even when later explanations change.
