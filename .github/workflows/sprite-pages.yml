@@ -42,7 +42,7 @@ jobs:
           from pathlib import Path
           import re
           html = Path('sprite-arcade.html').read_text(encoding='utf-8')
-          assert html.count('data-panel=') == 7, 'Expected six homepage panels and JS selector'
+          assert html.count('data-panel=') == 6, 'Expected six homepage panels'
           assert 'episodes/B001-garret.html' in html and 'episodes/F001-perfect-surface.html' in html
           print('PASS: both playable tracks and six original artwork panels')
           PY
