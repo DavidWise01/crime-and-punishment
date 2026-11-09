@@ -28,6 +28,7 @@ The long-standing **CRP / UD0** novel archive and all original `agents/*` and `c
 - [**Dual-world sprite arcade**](sprite-arcade.html): art-rich, mobile responsive launcher for both worlds, novel/film thematic matrix, six original Canvas2D art panels and full 41-unit book structure map
 - [**Book B001 — The Garret and the Step**](episodes/B001-garret.html): standalone original sprite adventure; three scenes, six inspectable witnesses, two compare/seal gates, sound toggle, arrow/WASD/touch controls, and three in-context sprite-comic panels
 - [**Film F001 — The Perfect Surface**](episodes/F001-perfect-surface.html): parallel original sprite study, three scenes, six witnesses, two evidence gates, and three separate drawn contextual panels, sensitive/non-graphic
+- [**Full 41-section illustrated novel atlas**](book-atlas.html): all 39 chapters and two epilogue sections, original source-aware summaries and seven contextual Canvas2D sprite images; a complete *reading map*, not 41 playable games
 - [**2000 film guide**](film-guide.html): verified film identity and principal cast, distinct narrative discussion beats, content framing, original sprite panels and non-equivalence matrix
 - [**Existing novel archive**](index.html): its substantial literary and character corpus is retained; a front-page entry link now surfaces the sprite arcade
 - [**Existing suburbia essay**](suburbia.html): preserved as an original contemporary-society correlation, distinguished explicitly from Rob Schmidt's film
