@@ -280,3 +280,71 @@ Raskolnikov doubts               Consequences of blame
 **Film F005 — Confession and Consequence:** Attribution, truthfulness, responsibility and repair. Natural invariant: `confession != erased harm`.
 
 **Crosswalk 005:** Separate the immediate witness of suffering, later memory, and an institution's response from any claimed moral conclusion.
+
+
+---
+
+## CRP natural invariant 005 — Suffering and Confession · 2026-11-09
+
+**Release status:** Original playable Book B005 and Film F005 added to the existing CRP repository, with a contextual sprite-comic triptych in each chapter. The illustrated arcade displays six new Canvas2D panels. There are **10 independent playable episodes** in total: B001–B005 and F001–F005. The complete 41-reading-unit novel atlas remains an accurate map, with **five** book units now playable.
+
+### Book B005 — The Dream of the Horse · Part One Chapter Five
+
+- [**Play B005**](episodes/B005-the-dream.html): original three-scene non-graphic sprite interpretation of the childhood road, the exhausted horse and the shaken awakening
+- Six inspectable witnesses: remembered father, dream road, animal's suffering, the child's protest, Raskolnikov's waking moral revulsion, and his unresolved future choice
+- Eight witness checkpoints (six observations + comparison + seal), keyboard/touch navigation, optional original synthesized sound and three original contextual cartoon panels
+- **Natural invariant:** `suffering observed != cruelty justified`. The nightmare challenges Raskolnikov's theory of exceptional moral permission, yet a remembered dream is not an independently verified event; a waking resolution cannot guarantee later conduct
+- Animal distress appears symbolically. No graphic cruelty, copied prose or reenactment instructions are used
+- Next book target: **B006 — The Preparation** (Part One Chapter Six), focusing on chance, coincidence and choice without depicting violence as a procedural guide
+
+### Film F005 — Confession and What Remains
+
+- [**Play F005**](episodes/F005-confession.html): a separate, original thematic sprite study, not a claim to reproduce the film's exact scenes
+- Three non-graphic contexts: the admission, corroborating records and the consequences left behind
+- Six inspectable witnesses: speaker, conditions under which words are said, independent evidence, missing details, persistent harm and the limits of repair
+- Eight source checkpoints, optional synthesized sound and three original illustrated panels; three further context cartoons appear on the arcade and three additional originals in the [film guide](film-guide.html)
+- **Natural invariant:** `confession != erased harm`. A statement can be important evidence without proving every detail; acknowledgment cannot compel forgiveness or substitute for repair
+- Next interpretive film target: **F006 — After the Admission**, retaining individual agency and consequences without inventing literal film chapters
+
+### Cross-world witness audit 005
+
+[**Witness Crosswalk 005 — Compassion and Confession**](witness-crosswalk-005.html) is a separate original comparison with two contextual pixel-art drawings. It does not equate characters or scenes across the 1866 novel and 2000 film.
+
+```text
+BOOK B005                             FILM F005
+    |                                     |
+Childhood nightmare                  Spoken admission
+    |                                     |
+Animal's distress                   Evidence corroboration
+    |                                     |
+Child's compassion                  Persistent consequences
+    +-----------------+-------------------+
+                      |
+                 { WITNESS }
+                      |
+      DREAM      != VERIFIED HISTORY
+      SUFFERING  != MORAL PERMISSION
+      CONFESSION != ERASED HARM
+      APOLOGY    != REQUIRED FORGIVENESS
+                      |
+                 | PRESERVE |
+```
+
+### Persistent release assets
+
+- [Updated dual-world arcade](sprite-arcade.html) shows B005 and F005 as the new launches, draws six corresponding original cartoons, and retains direct links to the eight earlier playable chapters
+- [Illustrated book atlas](book-atlas.html) keeps all 41 reading units and marks Part One Chapters One–Five as playable
+- [2000 film guide](film-guide.html) highlights F005 and embeds a new three-panel original sprite sequence, preserving F001–F004 study content
+- [Original literary homepage](index.html) retains the pre-existing CRP corpus and adds B005, F005 and Crosswalk 005 links
+- [Verification-only workflow](.github/workflows/sprite-pages.yml) validates the latest ten chapter files, the six current arcade panels, the 41-unit atlas and all five crosswalks; the existing Pages build/deployment workflow remains the only publisher
+- Existing `suburbia.html`, agent archive and `crp.dlw` files remain unchanged
+
+**Release integrity:** Each standalone episode is Git-versioned. The user-session witness events in the games are temporary browser state. Successful source verification is distinct from a completed GitHub Pages deployment.
+
+### Next natural invariant — 006
+
+**Book B006 — The Preparation:** chance, overheard information and responsibility. Proposed invariant: `opportunity != obligation to act`.
+
+**Film F006 — After the Admission:** accountability and continuing consequence. Proposed invariant: `acknowledgment != completed repair`.
+
+**Crosswalk 006:** How knowledge, pressure and available choices affect responsibility without rewriting earlier witnesses.
