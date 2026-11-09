@@ -135,9 +135,9 @@ Observed suffering               Private harm and incomplete views
 
 ### Next natural bounds — 003
 
-**B003:** mother's letter, Dunya's planned marriage, debt, family obligation and Raskolnikov's reactions. Witness boundary: `a reported family sacrifice != freely verified consent`.
+**B003 COMMITTED:** mother's letter and Dunya's proposed marriage. Witness boundary: `a reported family sacrifice != freely verified consent`.
 
-**F003:** claims, protection, responsibility and partial photographic evidence. Witness boundary: `visible image != complete event`.
+**F003 COMMITTED:** source-labeled photographs and conflicting accounts. Witness boundary: `visible image != complete event`.
 
 **Crossworld-003:** distinguish who reports a harm, who observed it, who acts on it, and who is held responsible. Keep interpretation source-labeled and avoid a false one-to-one character analogy.
 
@@ -145,3 +145,70 @@ Observed suffering               Private harm and incomplete views
 ### Pages publication collision audit — corrected 2026-11-09
 
 Two simultaneous Pages deployers created a GitHub deployment race after bound 002. The artifact verification steps passed, but publishing failed with `Deployment request failed ... due to in progress deployment` while the previous deployment was active. The custom workflow has therefore been changed to **verification only**, with a separate concurrency group `crp-sprite-validation`, leaving the existing `pages build and deployment` job as the sole publisher. This is a workflow integrity fix, not a change to B001, F001 or the pre-existing CRP corpus. Source commit completion and public deployment remain distinct statuses. Check the latest [GitHub Actions runs](https://github.com/DavidWise01/crime-and-punishment/actions) for current publication status.
+
+
+---
+
+## CRP natural bound 003 — The account and the frame · 2026-11-09
+
+**Release:** B003 and F003 are authored and committed as two independent playable Canvas2D chapters. The arcade now showcases six new contextual pixel-cartoon panels, with **six playable episodes total** across the two source tracks (B001/B002/B003 and F001/F002/F003). The full 41-unit novel reading atlas remains separate from playable release counts. Earlier episode files and the original CRP corpus are not rewritten.
+
+### Book B003 — Part I, Chapter III: The Letter and the Bargain
+
+- [Play Book B003](episodes/B003-the-letter.html), featuring three original scenes: Pulcheria's letter, Dunya's past as a governess, and Luzhin's proposed marriage
+- Six inspectable witnesses: the letter, reported hopes for material improvement, Dunya's reported experience, restored social reputation, the proposal, and Rodion's reaction
+- Eight evidence checkpoints (six observations + comparison + seal), original three-panel sprite gallery, responsive controls and optional sound
+- **Invariant:** `reported sacrifice != verified free consent`. A family member's account must not be silently promoted to the intended bride's own testimony. Financial security does not certify absence of pressure
+- Next novel boundary: **B004 — The Street**, Part I, Chapter IV, where Raskolnikov confronts the vulnerability of others
+
+### Film F003 — Competing Accounts
+
+- [Play Film F003](episodes/F003-competing-accounts.html), an original symbolic study of a camera frame, differing reports and responsibility
+- Six inspectable witnesses: Vincent's chosen photograph, omitted context, Roseanne's perspective, Jimmy's account, an incomplete record and the limits of attribution
+- Three original non-graphic sprite-cartoon panels inside the playable chapter; three independently drawn homepage panels; three additional film-guide illustrations
+- **Invariant:** `captured image != complete event`. A frame can authentically depict part of a scene without independently proving motive or all surrounding actions. Source-labeled claims and trauma context remain distinct
+- No protected film footage, original film dialogue or shot-by-shot substitute is reproduced
+- Next film boundary: **F004 — Consequence**, continuing evidence and accountability, with no invented film chapter numbering implied
+
+### Bound 003 comparative evidence
+
+[Witness Crosswalk 003](witness-crosswalk-003.html) is a separate, illustrated interpretation of a written family account versus a photographic viewpoint. It does not equate Dunya and Roseanne, or suggest the novelist's letter and the filmmaker's imagery are equivalent primary records.
+
+```text
+BOOK B003                         FILM F003
+   |                                  |
+A mother's written report         A selected camera frame
+   |                                  |
+Dunya's proposed marriage         Different people recount harm
+   |                                  |
+Reported willingness              Partial visual evidence
+   +-----------------+----------------+
+                     |
+               { WITNESS }
+                     |
+        REPORT  != COMPLETE KNOWLEDGE
+        FRAME   != COMPLETE EVENT
+        ASSENT  != VERIFIED FREE CONSENT
+        CLAIM   != DEMONSTRATED BLAME
+                     |
+                | PRESERVE |
+```
+
+### Updated site and verified persistence
+
+- [Sprite arcade](sprite-arcade.html) links all six committed episodes and draws six new homepage panels in their corresponding book and film context
+- [Novel atlas](book-atlas.html) identifies B001, B002 and B003 as playable while preserving the 41-unit book roadmap
+- [Film guide](film-guide.html) features F003 and three original new sprite panels, retaining F002 and F001 content
+- [Existing novel home](index.html) adds B003, F003 and Crosswalk 003 navigation without replacing the pre-existing archive
+- [Source verification CI](.github/workflows/sprite-pages.yml) requires all six playable episodes, both crosswalks, 41 mapped reading units, and three in-page illustrations per latest episode. The existing Pages publisher is the only deployment process
+- Existing `suburbia.html`, `agents/`, and `crp.dlw/` remain untouched
+
+**Provenance:** Source HTML is committed to Git. Local gameplay observations are not uploaded. GitHub Actions source verification and public Pages deployment must be confirmed separately; a green source test does not by itself prove the site is live.
+
+### Next natural bound — 004
+
+**B004:** A vulnerable stranger, public intervention, and Raskolnikov's discomfort with social predation (Part One, Chapter Four). Natural invariant: `observed vulnerability != entitlement to control another person`.
+
+**F004:** The consequential difference between observed conduct, testimony, accusation and legal accountability. Natural invariant: `accusation != established responsibility`.
+
+**Crosswalk 004:** Compare how power affects testimony and how the consequences of an action remain real regardless of an actor's preferred explanation.
