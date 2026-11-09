@@ -73,4 +73,70 @@ Dostoevsky's novel is public domain in the United States. Some modern translatio
 
 ### Next natural engineering bounds
 
-**B002**: Marmeladov's tavern story (book Part One, Chapter Two) · **F002**: more of the film's public/private tension without graphic recreation · **cross-world audit**: distinguish the novel's extraordinary-man rationalization from the film's traumatic-family dynamics and different forms of accountability. Each addition should be an independent page and an append-only ledger update; existing UD0 and DLW materials remain untouched.
+**B002 and F002 are committed.** The next novel unit is **B003 — The Letter** (Part One, Chapter Three). The next film study is **F003 — Competing Accounts**, retaining the original film's chronology without graphic reconstruction. Existing UD0 and DLW materials remain untouched.
+
+
+---
+
+## CRP natural bound 002 — B002 + F002 · 2026-11-09
+
+**Release status:** two new independently playable sprite episodes committed, their source witnesses recorded, the dual-world arcade illustrated with six new panels, and cross-world audit appended. **Four playable episodes total** (B001, B002, F001, F002); **41 original novel reading units mapped**, of which two are currently playable.
+
+### B002 — Marmeladov's Tavern / Part One Chapter Two
+
+- [**Play B002: The Tavern and the Coins**](episodes/B002-marmeladovs-tavern.html)
+- Three original Canvas2D scenes: the tavern conversation, Marmeladov's poor household, and the coins Raskolnikov leaves
+- Six inspectable witnesses (tavern, clerk's testimony, return journey, family conditions, coins, unresolved consequences) and compare/seal gates; eight checkpoints in total
+- Three original cartoon panels in the page and three additional contextual drawings on the illustrated arcade homepage
+- **Invariant:** `self-report != complete proof`. Marmeladov speaks truthfully about some aspects of his suffering, and the family setting corroborates material hardship, but his monologue is not an omniscient record. Raskolnikov's small gift is evidence of action, not proof of lasting rescue
+- Next source-aligned book boundary: B003, the letter from Raskolnikov's mother (Part One Chapter Three)
+
+### F002 — The Fracture / film-inspired source study
+
+- [**Play F002: The Fracture**](episodes/F002-fracture.html)
+- Three symbolic non-graphic sprites: closed household door, partial observation, competing explanations of blame
+- Six inspectable thematic witnesses and compare/seal gates; eight checkpoints total
+- Three original page-contained sprite-cartoon panels and three separate contextual illustrations directly embedded on the homepage
+- **Invariant:** `silence != consent`; a visible or audible fragment does not provide a full account of private harm or validate an accusation. The episode is an original interpretive study, **not** a literal film storyboard, transcript, or claim to have directly witnessed unseen events
+- Next film boundary: F003, competing accounts and responsibility, retaining the distinction between self-report and independent verification
+
+### One cross-world evidence desk
+
+[**Witness Crosswalk 002**](witness-crosswalk-002.html) offers a separate illustrated bridge between the book's tavern testimony and the film's public/private information boundary. It avoids mapping Marmeladov to any one film character and keeps both sources distinct. Its four preserved differences:
+
+```text
+BOOK / B002                        FILM / F002
+    |                                  |
+Marmeladov's statement           Public image, limited accounts
+    |                                  |
+Observed suffering               Private harm and incomplete views
+    +----------------+-----------------+
+                     |
+                COMPARE
+                     |
+          statement != full proof
+          silence   != consent
+          context   != justification
+          charity   != complete repair
+                     |
+                | PRESERVE |
+```
+
+### Updated persistent files and controls
+
+- [Dual-world sprite arcade](sprite-arcade.html) now features both new playable episodes and six new, directly embedded, original Canvas2D cartoons; B001/F001 remain available by archive links
+- [Full novel atlas](book-atlas.html) now identifies Part One Chapter Two as playable B002, without claiming all 41 reading units have been implemented
+- [2000 film guide](film-guide.html) now includes a new symbolic F002 triptych and comparison link; F001 panels are retained
+- [Original novel home](index.html) links to B002/F002 and crosswalk while preserving the existing 110 KB original corpus
+- [Pages workflow](.github/workflows/sprite-pages.yml) tests all four authored episodes, exact homepage panel count, the 41-unit atlas, and the crosswalk before deployment
+- [Existing suburbia correlation essay](suburbia.html), agents, and `crp.dlw` records are not modified
+
+**Release integrity:** Git versions contain authored files and an append-only release ledger; browser play events remain session-local and are not Git commits. A successful commit must be distinguished from a successful GitHub Pages run.
+
+### Next natural bounds — 003
+
+**B003:** mother's letter, Dunya's planned marriage, debt, family obligation and Raskolnikov's reactions. Witness boundary: `a reported family sacrifice != freely verified consent`.
+
+**F003:** claims, protection, responsibility and partial photographic evidence. Witness boundary: `visible image != complete event`.
+
+**Crossworld-003:** distinguish who reports a harm, who observed it, who acts on it, and who is held responsible. Keep interpretation source-labeled and avoid a false one-to-one character analogy.
