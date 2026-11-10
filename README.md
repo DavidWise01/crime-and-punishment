@@ -610,3 +610,71 @@ Two killings still occurred       Affected witness retains agency
 **F010 — Power and Public Judgment** (original film study): Who shapes a public story and who bears its cost. Proposed invariant: `social authority != evidentiary authority`.
 
 **Crosswalk 010:** Preserve source attribution across distressed memory, witness testimony, and public judgment without overwriting earlier historical events.
+
+
+---
+
+## CRP natural invariant 010 — Symptoms and Social Power · 2026-11-09
+
+**Release:** The next two original, independently playable Canvas2D chapters are committed: [Book B010 — Visitors and Fever](episodes/B010-visitors-and-fever.html) and [Film F010 — Power and Public Judgment](episodes/F010-power-and-public-judgment.html). There are now **20 playable episodes**: ten novel chapters B001–B010, and ten original film-inspired thematic studies F001–F010. The entire novel remains mapped in the **41-unit reading atlas**, with ten units playable and 31 mapped but not yet playable.
+
+### B010 — Visitors and Fever · Part Two Chapter Three
+
+- Three original sprite scenes: Raskolnikov's sickroom; Razumikhin's help, food and care; the family letter and the unanswered gap between what visitors know and what Raskolnikov remembers
+- Six inspectable witnesses: his visible illness, feverish speech fragments, Razumikhin, practical care, a mother's support, and the limits of the visitors' knowledge
+- Eight checkpoints (six observations + compare + seal); original three-panel cartoon gallery, responsive keyboard/touch controls and optional WebAudio sounds
+- **Natural invariant:** `observed symptom != complete knowledge of cause`. Nastasya and Razumikhin can observe symptoms and act with care without becoming omniscient witnesses to the source of every memory or emotion
+- Alyona Ivanovna and Lizaveta remain two identified victims in the chronological record. Illness does not erase their deaths
+- Next source-aligned book boundary: **B011 — Luzhin's Visit**, Part Two Chapter Four, exploring claims about financial standing, power, and moral responsibility
+
+### F010 — Power and Public Judgment
+
+- Original symbolic, non-graphic interpretive study of the 2000 copyrighted film, **not** a recreation of its scenes, dialogue, or actual trial
+- Three original sprite environments: the public platform, the less powerful witness, and a source audit
+- Six inspectable witnesses: influential speaker, repeated claim, quiet testimony, pressure to agree, comparison of independent evidence, and the affected person's agency
+- Eight checkpoints with compare/seal, three original chapter cartoons; six latest contextual drawings on the arcade homepage and three further original sprites in the film guide
+- **Natural invariant:** `social authority != evidentiary authority`. Social prestige and repeated assertions cannot replace direct access to facts, provenance or independent corroboration
+- Next original thematic film boundary: **F011 — Time and Memory**, distinguishing later recall from independently recorded events
+
+### Cross-world Witness Crosswalk 010
+
+[**Crosswalk 010 — Symptoms and Social Power**](witness-crosswalk-010.html) contains two new, original sprite illustrations comparing the epistemic boundaries while preserving the novel and film as independent sources.
+
+```text
+BOOK B010                         FILM F010
+    |                                 |
+Fever and confused words         Influential public speaker
+    |                                 |
+Razumikhin and Nastasya care     Quiet witness and power imbalance
+    |                                 |
+Some causes remain unknown       Independent source audit
+    +----------------+----------------+
+                     |
+                WITNESS AUDIT
+                     |
+      SYMPTOM          != COMPLETE CAUSE
+      CARING WITNESS   != OMNISCIENT WITNESS
+      SOCIAL AUTHORITY != EVIDENTIARY AUTHORITY
+      PUBLIC CONSENSUS != INDEPENDENT PROOF
+                     |
+                | PRESERVE |
+```
+
+### Persistent release and source checks
+
+- [Dual-world arcade](sprite-arcade.html): B010/F010 featured, six new original Canvas2D contextual panels, and direct links to all previous 18 chapters
+- [Complete book atlas](book-atlas.html): 41 units mapped, B001–B010 marked playable, including Part Two Chapters One–Three
+- [Film guide](film-guide.html): F010 featured with three new original sprites and earlier F001–F009 retained
+- [Original novel homepage](index.html): B010/F010/Crosswalk 010 linked without overwriting the existing extensive novel archive
+- [Validation-only GitHub Actions workflow](.github/workflows/sprite-pages.yml): tests all 20 episode paths, crosswalks 002–010, the six current homepage illustrations, 41 mapped units, and the three original cartoons and compare/seal actions in the latest episodes
+- Earlier B009/F009 chapters, `suburbia.html`, agent files and `crp.dlw/` materials remain unchanged
+
+**Persistence boundary:** Git commits preserve authored content and the append-only canonical ledger. Witness events created during user gameplay are session-local. A source verification pass is not by itself confirmation of the latest public GitHub Pages deployment; monitor the Pages workflow separately.
+
+### Next natural invariant — 011
+
+**Book B011 — Luzhin's Visit:** Social advantage and financial promises must not be conflated with ethical authority. Proposed invariant: `wealth or status != moral right`.
+
+**Film F011 — Time and Memory:** A witness's later account can differ from earlier records without altering the original event. Proposed invariant: `recalled detail != independently recorded fact`.
+
+**Crosswalk 011:** Maintain chronological and source provenance across confidence, unequal power, observation and later recollection.
