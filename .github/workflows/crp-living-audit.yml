@@ -1,0 +1,47 @@
+name: CRP 042 Living Kernel Integrity Audit
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'kernel/**'
+      - 'living-kernel.html'
+      - 'episodes/**'
+      - 'witness-crosswalk-*.html'
+      - 'index.html'
+      - 'sprite-arcade.html'
+      - 'book-atlas.html'
+      - 'film-guide.html'
+      - '.github/workflows/crp-living-audit.yml'
+  schedule:
+    - cron: '0 12 * * 1'
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: crp-042-living-kernel-audit
+  cancel-in-progress: false
+jobs:
+  integrity:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Read immutable source snapshot
+        uses: actions/checkout@v4
+      - name: Verify 41 book + 41 film + 41 crosswalk files
+        id: audit
+        continue-on-error: true
+        env:
+          CRP_AUDIT_OUTPUT: dist/CRP-042-audit-report.json
+        run: python3 kernel/audit.py
+      - name: Upload evidence report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: crp-042-integrity-report
+          path: dist/CRP-042-audit-report.json
+          if-no-files-found: error
+          retention-days: 90
+      - name: Enforce source integrity
+        if: steps.audit.outcome != 'success'
+        run: |
+          echo 'CRP artifact integrity failed. See the uploaded audit report.'
+          exit 1
