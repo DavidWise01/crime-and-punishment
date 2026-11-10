@@ -1273,3 +1273,24 @@ PROPOSED_REPAIR != VERIFIED_REPAIR
 **60 authored playable episodes:** B001–B030 and F001–F030. Novel atlas retains 41 mapped reading sections, 30 with playable implementations. Browser seals are session-local; Git source commits persist. Public Pages deployment needs independent verification.
 
 **Next natural bound 031:** Part Five Chapter Five, Katerina Ivanovna's collapse and the children's crisis; film-side distinguish urgent observed needs from imposed narratives about deserving care.
+
+
+---
+
+## CRP natural bound 031 — Katerina's Last Struggle / Need Without Judgment · 2026-11-10
+
+Boundary 030 and earlier individual episode sources remain preserved. This append-only release adds new playable chapters and crosswalk.
+
+- [B031 — Katerina's Last Struggle](episodes/B031-katerinas-last-struggle.html): Part Five Chapter Five. Ill and displaced, Katerina Ivanovna takes the children into the streets to perform for money, collapses, and dies at Sonya's room. Svidrigailov offers to support the children and reveals he overheard Raskolnikov's earlier private admission. The promise and eventual delivery of support remain distinct.
+- [F031 — Need Without Judgment](episodes/F031-need-without-judgment.html): original non-graphic film-side evidence exercise alongside Crime + Punishment in Suburbia (2000), not a literal film scene or adaptation of protected footage. Record distress, requested or offered support, recipient consent, delivery and remaining needs without measuring worthiness.
+- [Witness Crosswalk 031](witness-crosswalk-031.html): original drawn sprite comparison and the evidence boundary between a claimed intention to help and verified assistance.
+
+```yaml
+OBSERVED_NEED != MORAL_FAILURE
+URGENT_CARE != JUDGMENT_OF_WORTH
+OFFERED_HELP != DELIVERED_CARE
+```
+
+**62 authored playable episodes:** B001–B031 and F001–F031. Book atlas maps 41 novel reading sections, with 31 playable book chapters. Browser session seals remain local, source is Git-persistent, and public Pages publication must be verified separately.
+
+**Next natural bound 032:** Part Six Chapter One, Raskolnikov's unsettled days after Katerina's death, Razumikhin's observations and Porfiry's approaching return; film-side distinguish outward behavior from hidden interior states.
