@@ -1378,3 +1378,24 @@ THREE_RETELLINGS != THREE_WITNESSES
 **70 authored playable episodes:** B001–B035 and F001–F035. Novel atlas retains 41 mapped reading sections; 35 have playable book chapters. Browser seals are session-local; Git commits preserve source. Public Pages deployment is not independently verified.
 
 **Next natural bound 036:** Part Six Chapter Five, Svidrigailov's private confrontation with Dunya; film-side examine how knowledge and physical control can be used for coercion, preserving refusal and agency.
+
+
+---
+
+## CRP natural bound 036 — Dunya's Refusal / Coercion Is Not Consent · 2026-11-10
+
+Boundary 035 and earlier playable chapter files remain preserved. This append-only release includes two interactive Canvas sprite chapters, a crosswalk and new archive navigation. A separate 16-bit pixel-art overview was rendered in conversation; the repository's chapters have their own Canvas visuals, not that standalone image.
+
+- [B036 — Dunya's Refusal](episodes/B036-dunyas-refusal.html): Part Six Chapter Five. Svidrigailov uses Raskolnikov's secret and a locked door to pressure Dunya. She resists with a revolver and explicitly refuses. He eventually lets her leave. Release is not retroactive consent.
+- [F036 — Coercion Is Not Consent](episodes/F036-coercion-is-not-consent.html): original symbolic evidence lab, not a literal reconstruction of scenes from Crime + Punishment in Suburbia (2000). Preserve confidentiality leverage, exit restrictions, stated refusal, and release as separately sourced events.
+- [Witness Crosswalk 036](witness-crosswalk-036.html): interactive-style sprite desk comparing coercive leverage to freely given choice.
+
+```yaml
+POSSESSION_OF_SECRET != AUTHORITY_OVER_PERSON
+COERCED_COMPLIANCE != FREELY_GIVEN_CONSENT
+RELEASE != RETROACTIVE_CONSENT
+```
+
+**72 authored playable episodes:** B001–B036 and F001–F036. The book atlas retains 41 mapped reading sections, with 36 playable book chapters. Browser seals are session-local; Git commits preserve the source history. Public Pages deployment is not independently verified.
+
+**Next natural bound 037:** Part Six Chapter Six, Svidrigailov's final night and death, told without graphic depiction; film-side examine ambiguity in final communications and the limits of interpreting another person's interior state. Raskolnikov's official confession follows later in Part Six Chapter Eight.
