@@ -1047,3 +1047,24 @@ MORAL EXCEPTION  != LEGAL IMMUNITY
 **38 authored playable episodes:** B001–B019 and F001–F019. Book atlas retains 41 mapped reading sections; nineteen have playable implementations. Browser seals are session-local; Git retains source commits. Public Pages deployment requires independent verification.
 
 **Next natural bound 020:** Part Three Chapter Six, the unsettling accusation and Raskolnikov's mental strain; film-side distinguish an unverified accusation from an established fact.
+
+
+---
+
+## CRP natural bound 020 — The stranger's accusation vs evidence · 2026-11-10
+
+Boundary 019 remains intact. This is an append-only release.
+
+- [Book B020 — The Stranger's Accusation](episodes/B020-the-strangers-accusation.html): Part Three Chapter Six, the anonymous man's accusation, Raskolnikov's troubled recollection and explicitly marked nightmare, and Svidrigailov's entrance. The accuser and the later visitor are distinct characters.
+- [Film-side F020 — Accusation Versus Evidence](episodes/F020-accusation-versus-evidence.html): an original, non-graphic evidence exercise parallel to Crime + Punishment in Suburbia, not film footage, dialogue, or a literal scene reconstruction. An allegation, repeated reports, the subject's reaction and independent proof remain separate.
+- [Crosswalk 020](witness-crosswalk-020.html): original sprite comparison and source-dependency audit.
+
+```yaml
+ACCUSATION != ESTABLISHED FACT
+SUSPICION != VERIFIED KNOWLEDGE
+DREAM != WAKING TESTIMONY
+```
+
+**40 authored playable episodes:** B001–B020 and F001–F020. Novel atlas maintains 41 reading sections, of which 20 have playable implementations. Local session seals are not persistent server-side evidence. Git commits and public Pages deployment have separate confirmation states.
+
+**Next natural bound 021:** Book Part Four Chapter One, Svidrigailov's proposals and the question of purported generosity versus self-interested leverage; film-side distinguish a self-serving offer from genuine consent.
