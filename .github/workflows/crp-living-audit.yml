@@ -32,6 +32,19 @@ jobs:
         env:
           CRP_AUDIT_OUTPUT: dist/CRP-042-audit-report.json
         run: python3 kernel/audit.py
+      - name: Validate living dashboard JavaScript syntax
+        shell: bash
+        run: |
+          mkdir -p dist
+          python3 - <<'PY'
+          from pathlib import Path
+          import re
+          text=Path('living-kernel.html').read_text(encoding='utf-8')
+          scripts=re.findall(r'<script(?:\s[^>]*)?>([\s\S]*?)</script>',text,re.I)
+          assert len(scripts)==1, f'Expected one dashboard script, found {len(scripts)}'
+          Path('dist/living-kernel.check.js').write_text(scripts[0],encoding='utf-8')
+          PY
+          node --check dist/living-kernel.check.js
       - name: Upload evidence report
         if: always()
         uses: actions/upload-artifact@v4
