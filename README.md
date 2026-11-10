@@ -1443,3 +1443,24 @@ DEPARTURE != OFFICIAL_CONFESSION
 **76 authored playable episodes:** B001–B038 and F001–F038. Book atlas maps 41 reading sections, with 38 implemented. Browser evidence seals are session-local; Git commits retain source history. Live Pages deployment is separately verifiable.
 
 **Next natural bound 039:** Part Six Chapter Eight, Raskolnikov's final visit to Sonya, his crossroads gesture, and the completed official confession at the police station; film-side separate witnessed confession from legal determination and justice.
+
+
+---
+
+## CRP natural bound 039 — The Official Confession / From Action to Record · 2026-11-10
+
+Boundary 038 and all earlier individual chapter files are preserved. This append-only release adds two original playable Canvas sprite episodes, a witness crosswalk, and archive navigation. The separate neon pixel-art scene shown in conversation is a concept render, not a deployed Pages screenshot.
+
+- [B039 — The Official Confession](episodes/B039-the-official-confession.html): Part Six Chapter Eight. Raskolnikov receives Sonya's cross, kneels at the crossroads, goes to the police office, briefly leaves, then returns after seeing Sonya waiting outside and admits the murders of Alyona Ivanovna and Lizaveta. The confession is now an actual event, not a future intention. Trial and sentencing follow in the Epilogue.
+- [F039 — From Action to Record](episodes/F039-from-action-to-record.html): original symbolic film-side exercise, not a reconstruction of Crime + Punishment in Suburbia (2000). Keep witnessed admission, official documentation, independent checks and future judicial determination as distinct records.
+- [Witness Crosswalk 039](witness-crosswalk-039.html): original illustrated crosswalk that closes the admission gate while preserving unresolved legal and moral questions.
+
+```yaml
+CONFESSION_AS_ACTION != LEGAL_RESOLUTION
+OFFICIAL_RECORD != COMPLETED_JUSTICE
+DOCUMENTED_ADMISSION != INDEPENDENT_CORROBORATION
+```
+
+**78 authored playable episodes:** B001–B039 and F001–F039. The atlas maps 41 novel reading sections, 39 with playable book chapters. Browser seals remain session-local; Git retains source history. Public Pages deployment remains independently verifiable.
+
+**Next natural bound 040:** Epilogue Chapter One, Raskolnikov's trial, mitigation and eight-year sentence, and Sonya's move to Siberia; film-side distinguish a legal judgment from complete inner transformation or repair.
