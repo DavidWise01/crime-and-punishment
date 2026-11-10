@@ -955,3 +955,17 @@ Family reunion                  Timing and secondhand reports
 **F015 — Independent Witness:** Reports copied through a single social chain are not independent corroboration. `repeated source != new witness`.
 
 **Crosswalk 015:** Distinguish caring proximity, independently observed facts and inferred private motives.
+
+
+---
+
+## CRP natural bound 015 — Family knowledge and independent witness · 2026-11-10
+
+Boundary 014 remains sealed. Parts I and II are complete: seven chapters each. Part III opens with [B015 — Family Knowledge and Care](episodes/B015-family-knowledge-and-care.html), portraying Pulcheria, Dunya, Rodion and Razumikhin with a limited-knowledge evidence rule. The parallel original interpretive film study, [F015 — The Independent Witness](episodes/F015-independent-witness.html), traces repeated claims to their shared source and tests provenance before counting corroboration. [Witness Crosswalk 015](witness-crosswalk-015.html) compares the distinct source problems and preserves both invariants.
+
+```text
+CLOSE RELATIONSHIP != COMPLETE PRIVATE KNOWLEDGE
+REPEATED SOURCE    != INDEPENDENT WITNESS
+```
+
+**Authored releases:** 30 playable chapters total, B001–B015 and F001–F015. All 41 book reading units remain mapped, 15 playable. Session-ledger completion is not a server-side permanent seal. Site deployment status must be verified independently of commits.
