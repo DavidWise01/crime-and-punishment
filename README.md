@@ -1336,3 +1336,24 @@ SUGGESTED_CONFESSION != ACTUAL_CONFESSION
 **66 authored playable episodes:** B001–B033 and F001–F033. Book atlas retains 41 mapped novel reading sections; 33 have playable book chapters. Local browser seals are ephemeral while Git commits retain source history. Public Pages deployment requires separate verification.
 
 **Next natural bound 034:** Part Six Chapter Three, Svidrigailov's conversation with Raskolnikov and their shifting confrontation; film-side test claims of privileged knowledge against bounded witness access and independently established fact.
+
+
+---
+
+## CRP natural bound 034 — Svidrigailov's Knowledge / The Limits of Privileged Information · 2026-11-10
+
+Boundary 033 and all earlier individual episode sources remain preserved. This append-only release adds two playable sprite chapters and the source-separation crosswalk.
+
+- [B034 — Svidrigailov's Knowledge](episodes/B034-svidrigailovs-knowledge.html): Part Six Chapter Three. Raskolnikov meets Svidrigailov at a tavern and warns him against using knowledge of his secret to pressure Dunya. Svidrigailov's access to overheard words and his observations of Raskolnikov wandering do not confer omniscience or rightful influence. The extensive account of his past unfolds in Chapter Four.
+- [F034 — The Limits of Privileged Information](episodes/F034-the-limits-of-privileged-information.html): original symbolic film-side scenario, not copied scenes from Crime + Punishment in Suburbia (2000). Narrow genuine confidential access must not be upgraded to universal credibility or control over a third party.
+- [Witness Crosswalk 034](witness-crosswalk-034.html): original sprite-art comparison distinguishing access, unsupported assertions, hypothesized blackmail and independent choice.
+
+```yaml
+PRIVILEGED_INFORMATION != COMPLETE_KNOWLEDGE
+KNOWN_SECRET != RIGHT_TO_CONTROL
+ACCESS_TO_WORDS != ACCESS_TO_PRIVATE_INTENT
+```
+
+**68 authored playable episodes:** B001–B034 and F001–F034. Novel atlas retains 41 mapped reading sections; 34 have authored playable book chapters. Browser seals remain session-local, Git commits are durable source records, and public Pages deployment requires independent verification.
+
+**Next natural bound 035:** Part Six Chapter Four, Svidrigailov's account of Marfa Petrovna and Dunya, testing self-serving autobiographical testimony; film-side separate narrator testimony from independently corroborated history.
