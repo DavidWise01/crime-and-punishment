@@ -678,3 +678,73 @@ Some causes remain unknown       Independent source audit
 **Film F011 — Time and Memory:** A witness's later account can differ from earlier records without altering the original event. Proposed invariant: `recalled detail != independently recorded fact`.
 
 **Crosswalk 011:** Maintain chronological and source provenance across confidence, unequal power, observation and later recollection.
+
+
+---
+
+## CRP natural invariant 011 — Suspicion and Time-Indexed Memory · 2026-11-09
+
+**Release:** [B011 — The Doctor and the Painter](episodes/B011-the-doctor-and-the-painter.html) and [F011 — Time and Memory](episodes/F011-time-and-memory.html) are independent original interactive Canvas2D chapters. The archive now contains **22 playable episodes**: B001–B011 and F001–F011. The novel atlas continues to map **41 reading units**, of which 11 are playable. The arcade displays six new sprite cartoons; each episode has three scene illustrations, six inspectable witnesses, comparison, sealing, keyboard/touch input and optional sound.
+
+### Canonical literary chronology correction — verified
+
+A previous release preview described **B011 / Part Two Chapter Four** as Luzhin's visit. Source review of the novel shows that Part Two Chapter Four features **Zossimov's medical visit and Razumikhin's analysis of the suspected painter's case**, while **Luzhin arrives in Part Two Chapter Five**. The correction has been applied to the new chapter, atlas entry and prospective roadmap rather than publishing a chapter with the wrong source sequence. This release does not change B001–B010.
+
+### B011 — The Doctor and the Painter · Part Two Chapter Four
+
+- Three original, non-graphic sprite scenes: Zossimov examining Raskolnikov, the accusation against painter Nikolai, and the source audit of a disputed jewelry trail
+- Six inspectable witnesses: doctor, Razumikhin, the suspected painter, disputed jewelry, Razumikhin's counterargument, and the two victims Alyona Ivanovna and Lizaveta
+- **Natural invariant:** `suspicion != established guilt`. A physical clue in someone's possession requires provenance, chronology and corroboration; a suspect is not a convicted actor
+- The people wrongly suspected are not erased or turned into proof of the actual killer's innocence or guilt
+- Next novel chapter: **B012 — Luzhin's Visit**, Part Two Chapter Five, with the question `wealth or status != moral right`
+
+### F011 — Time and Memory · original thematic film study
+
+- Three symbolic sprite scenes: a first record, a later recollection, and a time-indexed comparison
+- Six witnesses preserve the initial source, original photographic frame, later memory, changed detail, source independence and the affected person's agency
+- **Natural invariant:** `recalled detail != independently recorded fact`. A later account may be sincerely revised; its new timestamp and conditions must be appended rather than replacing earlier testimony
+- This is an original interpretive chapter, **not** a movie transcript, literal scene recreation or claim about the exact film's onscreen chronology
+- Next film study: **F012 — Contradiction and Corroboration**
+
+### Cross-world Witness Crosswalk 011
+
+[**Crosswalk 011 — Suspicion and Recollection**](witness-crosswalk-011.html) juxtaposes the novel's disputed murder investigation and the film study's distinct source-times, with two original contextual illustrations.
+
+```text
+BOOK B011                         FILM F011
+    |                                 |
+Clinical observations            Initial record
+    |                                 |
+Painter under suspicion          Later recollection
+    |                                 |
+Jewelry source contested         Time-indexed comparison
+    +----------------+----------------+
+                     |
+                WITNESS AUDIT
+                     |
+      SUSPICION       != PROVEN GUILT
+      POSSESSION      != COMPLETE CAUSAL ACCOUNT
+      LATER MEMORY    != EARLIER RECORD
+      REPEATED CLAIM  != INDEPENDENT SOURCE
+                     |
+                | PRESERVE |
+```
+
+### GitHub and Pages integration
+
+- [Dual-world sprite arcade](sprite-arcade.html): now features B011/F011, with six new original homepage drawings and direct archive links to the earlier 20 playable episodes
+- [41-unit book atlas](book-atlas.html): correctly labels Part Two Chapter Four as the doctor and painter investigation, B011 playable; Luzhin remains the **next** Chapter Five
+- [Film guide](film-guide.html): features F011 and three new original timeline/recollection illustrations, while retaining F001–F010
+- [Original novel homepage](index.html): includes new B011/F011/Crosswalk 011 links without overwriting the large existing corpus
+- [Source-verification CI](.github/workflows/sprite-pages.yml): checks 22 episode paths, ten source crosswalks 002–011, 41 book units, six newest homepage panels, and the three original panels and compare/seal functions in each new episode
+- Prior B010/F010 episodes, the suburbia essay, agent archive and `crp.dlw` watermark materials are preserved
+
+**Evidence persistence:** Git commits preserve authored artifacts and this canonical release ledger. Browser witness-play events are session-local, not committed to the repository. GitHub source verification and public Pages deployment must each be confirmed by their own workflow results.
+
+### Next natural invariant — 012
+
+**B012 — Luzhin's Visit / Part Two Chapter Five:** financial influence does not create ethical authority. `wealth or status != moral right`.
+
+**F012 — Contradiction and Corroboration:** disagreements should lead to source comparison, not false certainty. `conflicting accounts != permission to invent a missing event`.
+
+**Crosswalk 012:** Witness identity, provenance, source independence, and the distinction between reported claims and demonstrated acts.
