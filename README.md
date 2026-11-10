@@ -1231,3 +1231,24 @@ SOCIAL_CONFLICT != PROVEN_MISCONDUCT
 **56 authored playable episodes:** B001–B028 and F001–F028. The atlas retains 41 mapped novel reading sections, 28 with playable book chapters. Browser-session seals are not persistent evidence; commits preserve source, and public Pages deployment remains separately verifiable.
 
 **Next natural bound 029:** Part Five Chapter Three, Luzhin's accusation against Sonya and Lebezyatnikov's disclosure of the planted banknote; film-side audit a staged accusation against independent provenance.
+
+
+---
+
+## CRP natural bound 029 — The Planted Banknote Exposed / Provenance Defeats the Frame-Up · 2026-11-10
+
+Boundary 028 and earlier individual chapter files remain preserved. This append-only release extends the two narrative tracks with source-separated evidence.
+
+- [B029 — The Planted Banknote Exposed](episodes/B029-the-planted-banknote-exposed.html): Part Five Chapter Three. Luzhin publicly accuses Sonya of taking his hundred-rouble note. It is found in her pocket, but Lebezyatnikov recounts having directly witnessed Luzhin slipping it there. Raskolnikov supplies a possible explanation of the set-up. The note's location, the transfer, accusations, and inferred motive are separate records.
+- [F029 — Provenance Defeats the Frame-Up](episodes/F029-provenance-defeats-frame-up.html): original, symbolic film-side evidence lab, not film footage or a literal scene from Crime + Punishment in Suburbia (2000). Discovery and chain of custody must be evaluated separately, with corrections retaining their prior source trail.
+- [Witness Crosswalk 029](witness-crosswalk-029.html): original drawn sprite comparison of physical discovery, transfer observation and motive inference.
+
+```yaml
+DISCOVERED_POSSESSION != PROVEN_THEFT
+INDEPENDENT_PROVENANCE != ACCUSER_NARRATIVE
+WITNESS_OBSERVATION != FIRST_INTERPRETATION
+```
+
+**58 authored playable episodes:** B001–B029 and F001–F029. Book atlas maps 41 novel sections, 29 with playable implementations. Browser evidence seals remain session-local; source commits persist in Git. Public Pages deployment remains independently verifiable.
+
+**Next natural bound 030:** Book Part Five Chapter Four, Raskolnikov reveals to Sonya that he killed Alyona Ivanovna and Lizaveta, and they confront the difference between confession, remorse and the choice to face consequence; film-side separate admission from repair and accountability.
