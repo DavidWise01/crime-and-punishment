@@ -1506,3 +1506,29 @@ STORY_MAP_COMPLETE != PERSON_COMPLETE
 **82 authored playable episodes: B001–B041 and F001–F041.** The complete 41-section novel atlas has 41 playable book episodes and 41 original parallel film-side evidence labs. Every episode is a three-scene interactive Canvas2D chapter with session-local evidence and comparison gate. This is an authored-completeness assertion based on the release ledger and chapter files, not a claim that every page's UI has been browser-tested end-to-end. Git commits preserve source history; public GitHub Pages deployment remains independently verifiable.
 
 **Next engineering bound 042 — release integrity audit, not a new novel chapter:** enumerate B001–B041, F001–F041, crosswalk-001–041, check file and link existence, inspect navigation order, verify GitHub Pages live fetches, check chapter naming and reading sequence, and preserve any discrepancies in an append-only audit ledger. Do not fabricate chapter 42 of the novel.
+
+
+---
+
+# CRP 042 · Series Closed / Living Kernel Open · 2026-11-10
+
+The story architecture is closed at **41 book chapters**, with **41 original film-side symbolic evidence labs** and **41 witness crosswalks**. **Crosswalk 001** was found missing during the tree audit and added as an explicit repair. Total: **123 HTML artifacts** across 41 triples. No fictional Chapter 42 was invented.
+
+**[ENTER THE LIVING KERNEL](living-kernel.html)** · [Canonical source registry](kernel/registry.json) · [Audit baseline](kernel/audit-report.json) · [Operating and closure contract](kernel/CLOSURE-042.md) · [Crosswalk 001 repair](witness-crosswalk-001.html)
+
+The kernel provides a source-indexed 41-chapter browser dashboard with original Canvas pixel art, Git blob byte consistency checks, manually entered source-attributed evidence packets, an exportable browser-local SHA-256 event chain and an explicit distinction between observation, inference and unknowns. Local storage is not tamper-proof remote persistence. Git commits are durable source records; public mirror and GitHub source share a single evidence ancestry.
+
+**Scheduled automatic integrity audit:** [CRP 042 GitHub Actions](.github/workflows/crp-living-audit.yml), running on relevant pushes, manually, and Monday 12:00 UTC. It validates 123 artifacts plus the living dashboard JavaScript and uploads a report artifact without rewriting source. The initial run [42921135929](https://github.com/DavidWise01/crime-and-punishment/actions/runs/42921135929) passed 123/123 source integrity checks, with **27 legacy inherited book-header warnings** and zero missing files. The updated JavaScript-check workflow also succeeded. The source audit is **not** a complete browser playback or public Pages verification.
+
+**Release state:** `STORY_CLOSED / KERNEL_OPEN / HISTORY_PRESERVED / FUTURE_EVIDENCE_APPEND_ONLY`.
+
+```text
+0 -> 41 BOOK CHAPTERS -> 41 FILM LABS -> 41 WITNESS CROSSWALKS
+             |                  |                    |
+             +------------------+--------------------+
+                                |
+                          LIVING KERNEL
+                 REGISTRY -> AUDIT -> WITNESS
+                                |
+                          PRESERVE / OPEN
+```
