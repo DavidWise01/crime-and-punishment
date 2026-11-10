@@ -1190,3 +1190,24 @@ OBSERVED QUESTIONS != OBSERVED MURDER
 **52 authored playable episodes:** B001–B026 and F001–F026. The complete novel atlas still maps 41 reading sections, with 26 implemented book episodes. Browser-session seals are local only; source is retained through Git commits. Public Pages deployment requires independent verification.
 
 **Next natural bound 027:** Part Five Chapter One, Luzhin's bitterness and manipulation of Lebezyatnikov before the memorial gathering; film-side distinguish a self-serving narrative from independent testimony and prepare the frame-up evidence chain.
+
+
+---
+
+## CRP natural bound 027 — Luzhin's Calculation / Manufactured Narrative · 2026-11-10
+
+Boundary 026 and earlier episode files remain preserved in Git history. This is an append-only release of three new page artifacts and navigation.
+
+- [B027 — Luzhin's Calculation](episodes/B027-luzhins-calculation.html): Part Five Chapter One. Luzhin broods over Dunya, talks with Lebezyatnikov, summons Sonya, openly offers ten roubles and secretly slips a hundred-rouble note into her pocket. Lebezyatnikov sees the transfer but initially believes it is secret generosity. The subsequent public accusation belongs to Part Five Chapter Three.
+- [F027 — The Manufactured Narrative](episodes/F027-the-manufactured-narrative.html): an original analytical sprite study, not a literal scene or dialogue from the copyrighted film Crime + Punishment in Suburbia (2000). An interested actor's statement, an object's chain of custody, discovery and alleged intent remain separate records.
+- [Witness Crosswalk 027](witness-crosswalk-027.html): original sprite-panel crosswalk distinguishing observable placement from the observer's initial interpretation.
+
+```yaml
+SELF_SERVING_ACCOUNT != INDEPENDENT FACT
+PLANTED_EVIDENCE != PROVEN WRONGDOING
+OBSERVED_PLACEMENT != INFERRED_MOTIVE
+```
+
+**54 authored playable episodes:** B001–B027 and F001–F027. The book atlas retains 41 mapped reading sections, of which 27 now have authored playable chapters. Browser session seals are not Git persistence. Commits and public Pages deployment require separate verification.
+
+**Next natural bound 028:** Book Part Five Chapter Two, Marmeladov's memorial meal and deteriorating social conflict. Film-side distinguish performative status disputes from evidence of a person's conduct.
