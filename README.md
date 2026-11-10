@@ -1007,3 +1007,23 @@ DISAGREEMENT != EVIDENCE FAILURE
 **34 playable HTML episodes:** B001–B017 and F001–F017, with 41 novel reading sections mapped. Source commits persist in Git; local session seals do not persist server-side. Pages deployment must be verified independently.
 
 **Next natural boundary 018:** B018 Part Three Chapter Four, Sonya's visit and invitation to Marmeladov's funeral; F018 distinguish a person's testimony from the social labels imposed upon them.
+
+
+---
+
+## CRP natural bound 018 — Sonya at the door / testimony without stigma · 2026-11-10
+
+This release appends to sealed Boundary 017 without rewriting existing episodes.
+
+- [Book B018 — Sonya at the Door](episodes/B018-sonya-at-the-door.html) is Part Three Chapter Four: Sonya delivers Katerina Ivanovna's invitation to Marmeladov's funeral and memorial meal, meets Raskolnikov's family, and Raskolnikov subsequently turns with Razumikhin toward Porfiry about pawned items.
+- [Film study F018 — Testimony Without Stigma](episodes/F018-testimony-without-stigma.html) is an original interpretive exercise, not a literal film scene. Test every witness by first-hand access, provenance and corroboration, not social standing.
+- [Crosswalk 018](witness-crosswalk-018.html) visualizes parallel evidence standards and preserves both tracks' distinct sources.
+
+```yaml
+SOCIAL STIGMA != WITNESS CREDIBILITY
+PERSONAL DIGNITY != SOCIAL RANK
+```
+
+**36 playable authored episodes:** B001–B018 and F001–F018, with 41 novel reading sections mapped. Browser seals are session-local, source commits persist in Git, and Pages deployment is a separately verifiable operation.
+
+**Next natural target 019:** Book Part Three Chapter Five, Raskolnikov's first extended confrontation with Porfiry about the published extraordinary-man argument; film-side distinguish an articulated theory from proof of an actor's deed.
