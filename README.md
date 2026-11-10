@@ -479,3 +479,67 @@ Responsibility survives           Restoration remains unverified
 **Film F008 — The Burden of Evidence (original thematic study):** The difference between a persuasive public story, independent corroboration and an affected person's continued agency. Invariant: `a shared narrative != an independently verified account`.
 
 **Crosswalk 008:** Compare how guilt, official authority, memory and testimony affect interpretation without rewriting the irreversible Part One witnesses.
+
+
+---
+
+## CRP natural invariant 008 — The Summons and the Story · 2026-11-09
+
+**Release:** Two independently playable original Canvas2D sprite chapters, [B008](episodes/B008-the-summons.html) and [F008](episodes/F008-burden-of-evidence.html), committed with six original contextual cartoon panels on the arcade, three embedded originals per chapter, six inspectable witness markers and eight checkpoints each (six observations plus compare/seal). The dual-world archive now has **16 playable episodes** (B001–B008 and F001–F008). The novel's complete 41-unit reading map remains intact; **eight** sections have playable releases. Book Part One is complete; B008 begins Part Two.
+
+### B008 — The Summons and the Fever · Part Two Chapter One
+
+- Raskolnikov is summoned to a Petersburg police office because of **a debt**, not because he has been charged with the killings of Alyona Ivanovna and Lizaveta. While officials discuss the murders, his fear and physical collapse complicate his interpretations
+- Three original symbolic game scenes: unsettled room and notice, the police station, and the overheard investigation
+- Six evidence witnesses: his condition, the notice, the actual financial issue, officer conversation, his distress, and the two victims who remain in the historical record
+- **Natural invariant:** `official summons != proof of feared charge`. A notice establishes its stated purpose. A suspect's fear is not an independent statement of the official reason
+- No graphic crime reconstruction or procedural violence. Next book target: **B009 — Concealment** (Part Two Chapter Two), preserving action, uncertainty and consequence separately
+
+### F008 — The Burden of Evidence · original thematic film study
+
+- This is **original analytical interpretation**, not a claim to depict specific copyrighted shots or an exhaustive retelling of the 2000 movie
+- Three symbolic sprite contexts: a public story, an independent source table, and a harmed witness's own account
+- Six witness markers: public statement, originating speaker, photographic frame, independent corroboration, the agency of someone harmed, and unresolved evidence
+- **Natural invariant:** `shared narrative != independently verified account`. Multiple retellings from one source remain one evidentiary lineage; popularity is not proof
+- The [film guide](film-guide.html) includes three newly authored source-evidence sprites; prior F001–F007 chapters and drawings remain available. Next film study: **F009 — Pressure and Testimony**
+
+### Illustrated Crosswalk 008
+
+[**Witness Crosswalk 008 — The Summons and the Story**](witness-crosswalk-008.html) preserves an original two-panel comparison and the distinctions:
+
+```text
+BOOK B008                          FILM F008
+    |                                  |
+Police debt summons               A repeated public account
+    |                                  |
+Raskolnikov's fear                Shared source dependency
+    |                                  |
+Overheard discussion              Independent corroboration
+    +---------------+------------------+
+                    |
+               WITNESS AUDIT
+                    |
+         SUMMONS    != FEARED CHARGE
+         REACTION   != VERIFIED CAUSE
+         REPETITION != INDEPENDENT EVIDENCE
+         CONSENSUS  != COMPLETE RECORD
+                    |
+               | PRESERVE |
+```
+
+### Persistence and release integrity
+
+- [Arcade](sprite-arcade.html): B008/F008 are featured; six new original Canvas2D comics appear directly in context, and links to B001–B007/F001–F007 remain available
+- [Novel atlas](book-atlas.html): all 41 reading units mapped, all seven chapters of Part One playable, and Part Two Chapter One marked playable
+- [Film guide](film-guide.html): F008 and its contextual panels added, prior studies remain in the same document
+- [Original novel homepage](index.html): updated entry links while retaining the pre-existing ~110 KB CRP book world, agents, DLW manifest and suburbia essay
+- [Verification-only workflow](.github/workflows/sprite-pages.yml): all 16 playable chapter paths, seven crosswalks 002–008, six latest homepage illustrations, 41 mapped units, and compare/seal controls tested. The existing built-in GitHub Pages workflow remains sole publisher
+- Browser observation logs are session-only. Git tracks authored source revisions, not the users' play events. A successful GitHub commit and validation run must not be represented as a successfully published public Pages site without a successful deployment
+
+### Next natural invariant — 009
+
+**Book B009 — Concealment and Fever** (Part Two, Chapter Two): secrecy and attempts to control perceived evidence meet unreliable memory. Proposed invariant: `concealing evidence != eliminating the event`.
+
+**Film F009 — Pressure and Testimony**: how fear, allegiance and unequal power change what a person can safely say. Proposed invariant: `a statement made under pressure != freely verified truth`.
+
+**Crosswalk 009:** Separate actions, testimony, and the persistence of historical facts despite changed accounts.
