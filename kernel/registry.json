@@ -1,0 +1,644 @@
+{
+  "schema": "crp.living-kernel.registry.v1",
+  "release": "042",
+  "generated": "2026-11-10",
+  "repository": "DavidWise01/crime-and-punishment",
+  "source_branch": "main",
+  "provenance": {
+    "owned_corpus": "GitHub source; any public mirror of these files shares one ancestry",
+    "parallel_film": "Original symbolic analytical exercises, not footage or dialogue from the copyrighted film",
+    "independence_rule": "book and film are separate authored tracks; their thematic alignment does not count as independent evidence of a shared real-world event",
+    "commit_persistence": "Git commits",
+    "browser_events": "append-only hash-chained localStorage; user browser only"
+  },
+  "invariants": [
+    "STORY_MAP_COMPLETE != PERSON_COMPLETE",
+    "GIT_COMMIT != VERIFIED_LIVE_DEPLOYMENT",
+    "TWO_MIRRORS != TWO_INDEPENDENT_SOURCES",
+    "OBSERVATION != INFERENCE",
+    "RENEWAL_BEGINNING != REDEMPTION_COMPLETE"
+  ],
+  "expected": {
+    "book": 41,
+    "film": 41,
+    "crosswalk": 41,
+    "total_artifacts": 123
+  },
+  "episodes": [
+    {
+      "id": "001",
+      "book": {
+        "path": "episodes/B001-garret.html",
+        "blob_sha": "8d52d69c623069ab81d24f9ddb948a6d398a29db"
+      },
+      "film": {
+        "path": "episodes/F001-perfect-surface.html",
+        "blob_sha": "dd48bfecb3aad73db1292f372566ed8c233c1e0b"
+      },
+      "crosswalk": {
+        "path": "witness-crosswalk-001.html",
+        "blob_sha": "06910df5f4ed638ec6febb888a4cbe0b52a58377"
+      }
+    },
+    {
+      "id": "002",
+      "book": {
+        "path": "episodes/B002-marmeladovs-tavern.html",
+        "blob_sha": "12d569c0ec90f3bcb9a77197a1feea49df21a218"
+      },
+      "film": {
+        "path": "episodes/F002-fracture.html",
+        "blob_sha": "fea117dc4f783c47d8922c9d5ec87ff8010a4db5"
+      },
+      "crosswalk": {
+        "path": "witness-crosswalk-002.html",
+        "blob_sha": "fa087fbb00a75fb92740e3523304b23d2715682e"
+      }
+    },
+    {
+      "id": "003",
+      "book": {
+        "path": "episodes/B003-the-letter.html",
+        "blob_sha": "76494aa848ce2dd1972e22977a55380d7dfeb8cb"
+      },
+      "film": {
+        "path": "episodes/F003-competing-accounts.html",
+        "blob_sha": "538c4f517287744988709a66a9e77e094a4bbd17"
+      },
+      "crosswalk": {
+        "path": "witness-crosswalk-003.html",
+        "blob_sha": "5ca216203c7d3b1aa32041820a928b7c14eb1950"
+      }
+    },
+    {
+      "id": "004",
+      "book": {
+        "path": "episodes/B004-the-street.html",
+        "blob_sha": "53a7fef14733e5ee448ba6419049a3b4228e28ac"
+      },
+      "film": {
+        "path": "episodes/F004-consequence.html",
+        "blob_sha": "e65108002321696448d0f4d0027df54dd615bc2e"
+      },
+      "crosswalk": {
+        "path": "witness-crosswalk-004.html",
+        "blob_sha": "22354afa8bc327b8a4e8ce291d9dabd8f427e75b"
+      }
+    },
+    {
+      "id": "005",
+      "book": {
+        "path": "episodes/B005-the-dream.html",
+        "blob_sha": "61e93865d849de8a5d8342c1c89a9769c40d3085"
+      },
+      "film": {
+        "path": "episodes/F005-confession.html",
+        "blob_sha": "56504683db3b6b12689dda3727657a060bafee7f"
+      },
+      "crosswalk": {
+        "path": "witness-crosswalk-005.html",
+        "blob_sha": "e091f0f35abbfca1c78fea7f199185363bc99190"
+      }
+    },
+    {
+      "id": "006",
+      "book": {
+        "path": "episodes/B006-the-preparation.html",
+        "blob_sha": "d149c897d97986bb0ad4713265d502c30734fd15"
+      },
+      "film": {
+        "path": "episodes/F006-after-admission.html",
+        "blob_sha": "e79faa09bf9d513ba6b11210636836e78706ea14"
+      },
+      "crosswalk": {
+        "path": "witness-crosswalk-006.html",
+        "blob_sha": "8971576daa6380b49cbfb422f444633ba725876d"
+      }
+    },
+    {
+      "id": "007",
+      "book": {
+        "path": "episodes/B007-the-crossing.html",
+        "blob_sha": "5dfae74e8daebee81e5a959c5aeb913f58b7f5c8"
+      },
+      "film": {
+        "path": "episodes/F007-aftermath-witnesses.html",
+        "blob_sha": "f5e36d96097f050e19ad29cfd1b1c342168eee8d"
+      },
+      "crosswalk": {
+        "path": "witness-crosswalk-007.html",
+        "blob_sha": "d6c0b273f855ad0c2af9ac3d4815dc1bf9e1f698"
+      }
+    },
+    {
+      "id": "008",
+      "book": {
+        "path": "episodes/B008-the-summons.html",
+        "blob_sha": "4895ba720442ea914652c32bc3de249979f41983"
+      },
+      "film": {
+        "path": "episodes/F008-burden-of-evidence.html",
+        "blob_sha": "ed46aad46a4470d7e4c417dd2b6a258228c87d53"
+      },
+      "crosswalk": {
+        "path": "witness-crosswalk-008.html",
+        "blob_sha": "afff750b69e45580b16c7d103143e0ae3fa37661"
+      }
+    },
+    {
+      "id": "009",
+      "book": {
+        "path": "episodes/B009-concealment-and-fever.html",
+        "blob_sha": "f272af5dec004fb7c6fcfe582942c8df2eebcaf3"
+      },
+      "film": {
+        "path": "episodes/F009-pressure-and-testimony.html",
+        "blob_sha": "77fd9d8dec9ac11f5d4049d01cd7414548346d73"
+      },
+      "crosswalk": {
+        "path": "witness-crosswalk-009.html",
+        "blob_sha": "872cde2a91e1ce31c3282c718eab6c7b69730b82"
+      }
+    },
+    {
+      "id": "010",
+      "book": {
+        "path": "episodes/B010-visitors-and-fever.html",
+        "blob_sha": "90c9b8d672e5f52aedb15397e533df56838d3ac3"
+      },
+      "film": {
+        "path": "episodes/F010-power-and-public-judgment.html",
+        "blob_sha": "3363dd0f374ae1327262c315aa71343e6465c319"
+      },
+      "crosswalk": {
+        "path": "witness-crosswalk-010.html",
+        "blob_sha": "20d8eaa0a8861924e0b7fcfe48a5868e17517258"
+      }
+    },
+    {
+      "id": "011",
+      "book": {
+        "path": "episodes/B011-the-doctor-and-the-painter.html",
+        "blob_sha": "70be82173aaeeb46c3d2ce495a35c6ca96aeda15"
+      },
+      "film": {
+        "path": "episodes/F011-time-and-memory.html",
+        "blob_sha": "78f0971305125290fd04730a7e2d616b700ffcd4"
+      },
+      "crosswalk": {
+        "path": "witness-crosswalk-011.html",
+        "blob_sha": "9af41d957791cee2bfd86a310f82c280de596f64"
+      }
+    },
+    {
+      "id": "012",
+      "book": {
+        "path": "episodes/B012-luzhins-visit.html",
+        "blob_sha": "aba07cb0fdef0cbfeac8c060dac59971bf6cc61e"
+      },
+      "film": {
+        "path": "episodes/F012-contradiction-and-corroboration.html",
+        "blob_sha": "7d4e6d26abb90727b1b6ef0b16853b4f88de04c0"
+      },
+      "crosswalk": {
+        "path": "witness-crosswalk-012.html",
+        "blob_sha": "1c6163e9ceeb7b675546bd2948a632331eb20b99"
+      }
+    },
+    {
+      "id": "013",
+      "book": {
+        "path": "episodes/B013-the-street-and-zametov.html",
+        "blob_sha": "546716120dfdf00432eab82b77e093a52b7da7c7"
+      },
+      "film": {
+        "path": "episodes/F013-motive-and-inference.html",
+        "blob_sha": "29a3657299ed1e12d203994ac7523cd55b3328b4"
+      },
+      "crosswalk": {
+        "path": "witness-crosswalk-013.html",
+        "blob_sha": "c0604cecef7b45b567fa0f9a3e4523dc7b170769"
+      }
+    },
+    {
+      "id": "014",
+      "book": {
+        "path": "episodes/B014-marmeladovs-last-hours.html",
+        "blob_sha": "fbdb1f772a9c32a8da7711ff6fef7a58380885b8"
+      },
+      "film": {
+        "path": "episodes/F014-proximity-and-knowledge.html",
+        "blob_sha": "4b6f511b190506f37f8e56d49af143c7bc048103"
+      },
+      "crosswalk": {
+        "path": "witness-crosswalk-014.html",
+        "blob_sha": "b3806a0eae71df8e4060ab6cc4e1ee26b2b33722"
+      }
+    },
+    {
+      "id": "015",
+      "book": {
+        "path": "episodes/B015-family-knowledge-and-care.html",
+        "blob_sha": "2839327fc6b80885f8c060b655fa25a6cc92b798"
+      },
+      "film": {
+        "path": "episodes/F015-independent-witness.html",
+        "blob_sha": "6123ec0a13a2469143088472bf27eb3079b7e5d4"
+      },
+      "crosswalk": {
+        "path": "witness-crosswalk-015.html",
+        "blob_sha": "374059270049950d1c717df84279b4f262d834fb"
+      }
+    },
+    {
+      "id": "016",
+      "book": {
+        "path": "episodes/B016-authority-obligation-and-debt.html",
+        "blob_sha": "620c53549d4e582d867958a06de61d235b0c4d4d"
+      },
+      "film": {
+        "path": "episodes/F016-corroboration-without-contamination.html",
+        "blob_sha": "5b0ce55fd4c6148326a5a5cac2f05088e5d77236"
+      },
+      "crosswalk": {
+        "path": "witness-crosswalk-016.html",
+        "blob_sha": "85a703565e0ec30350ba6e3eb3d5e8c315428af1"
+      }
+    },
+    {
+      "id": "017",
+      "book": {
+        "path": "episodes/B017-family-advice-and-choice.html",
+        "blob_sha": "3bf439d13d075ed73683fca2fb233e8c96efce17"
+      },
+      "film": {
+        "path": "episodes/F017-preserving-disagreement.html",
+        "blob_sha": "64f1709ff0884cbfd5cf7ee10b651fd5dfaf2ca7"
+      },
+      "crosswalk": {
+        "path": "witness-crosswalk-017.html",
+        "blob_sha": "e975231234f29d9899d81cb0be1a3208eeb0f721"
+      }
+    },
+    {
+      "id": "018",
+      "book": {
+        "path": "episodes/B018-sonya-at-the-door.html",
+        "blob_sha": "2ff47b7301afbe64e0e1d26d6d2c2e827a9a03a7"
+      },
+      "film": {
+        "path": "episodes/F018-testimony-without-stigma.html",
+        "blob_sha": "e5fef5fb13b7a7b79f4c02b919497e76420caaa6"
+      },
+      "crosswalk": {
+        "path": "witness-crosswalk-018.html",
+        "blob_sha": "53f32cb8454e3856590d65581aa40e6031063941"
+      }
+    },
+    {
+      "id": "019",
+      "book": {
+        "path": "episodes/B019-extraordinary-man-examined.html",
+        "blob_sha": "fcf58e03baedc5c4ccabf8c054f2ff35ebe37e54"
+      },
+      "film": {
+        "path": "episodes/F019-theory-versus-deed.html",
+        "blob_sha": "841b0f7259a8e2da2f7d2d2dbb66ad884185accd"
+      },
+      "crosswalk": {
+        "path": "witness-crosswalk-019.html",
+        "blob_sha": "b078bda94051ae5b0dadaae401bd021a62db8239"
+      }
+    },
+    {
+      "id": "020",
+      "book": {
+        "path": "episodes/B020-the-strangers-accusation.html",
+        "blob_sha": "3608d890d45e7e6ce17b5f9ef6af4ba6a2c683e8"
+      },
+      "film": {
+        "path": "episodes/F020-accusation-versus-evidence.html",
+        "blob_sha": "8c10545250a718730e1fce7ebb7b0a6e3a26b637"
+      },
+      "crosswalk": {
+        "path": "witness-crosswalk-020.html",
+        "blob_sha": "32f064ef2df4064c881b0d616ee608ccfe9141c1"
+      }
+    },
+    {
+      "id": "021",
+      "book": {
+        "path": "episodes/B021-svidrigailovs-offer.html",
+        "blob_sha": "75d15701b20d159318c12889e219fc92577b62c4"
+      },
+      "film": {
+        "path": "episodes/F021-the-conditional-gift.html",
+        "blob_sha": "3f2e7555c70976d91309c885b16df175e199dbda"
+      },
+      "crosswalk": {
+        "path": "witness-crosswalk-021.html",
+        "blob_sha": "8e03062fdc17c57a4c6c6af1250c531f887ad2ca"
+      }
+    },
+    {
+      "id": "022",
+      "book": {
+        "path": "episodes/B022-luzhins-ultimatum.html",
+        "blob_sha": "0da01a157e44853ec535f4686eba8c53e9dc7283"
+      },
+      "film": {
+        "path": "episodes/F022-the-right-to-withdraw.html",
+        "blob_sha": "717bc41e0b69a044c0a2a6d5a44af4f518e9baf7"
+      },
+      "crosswalk": {
+        "path": "witness-crosswalk-022.html",
+        "blob_sha": "f1a456849ba08ac85413d73fdf6e55c052ccb5bb"
+      }
+    },
+    {
+      "id": "023",
+      "book": {
+        "path": "episodes/B023-care-and-the-future.html",
+        "blob_sha": "1f29b68d8fe72197565830748f7e4410e45cb192"
+      },
+      "film": {
+        "path": "episodes/F023-promises-versus-capacity.html",
+        "blob_sha": "636b902078d0cf736e3ab14dc0d6d7d71f794402"
+      },
+      "crosswalk": {
+        "path": "witness-crosswalk-023.html",
+        "blob_sha": "b00bd7634e122c88f2b6085a26da5481fa6c5903"
+      }
+    },
+    {
+      "id": "024",
+      "book": {
+        "path": "episodes/B024-lazarus-and-the-choice-to-believe.html",
+        "blob_sha": "9c3597ad510ae73b9da7809fa9a1f3b71175f366"
+      },
+      "film": {
+        "path": "episodes/F024-guidance-without-possession.html",
+        "blob_sha": "e5c896b067cc8d5006a0498fc1c6bad46237c9ba"
+      },
+      "crosswalk": {
+        "path": "witness-crosswalk-024.html",
+        "blob_sha": "268781983ffff6e7d8500e07cf51651c557c99c7"
+      }
+    },
+    {
+      "id": "025",
+      "book": {
+        "path": "episodes/B025-porfirys-psychological-trap.html",
+        "blob_sha": "ff0769f7242cdd2b53b9381b215e5854769381ce"
+      },
+      "film": {
+        "path": "episodes/F025-the-leading-question.html",
+        "blob_sha": "a0db3a7978e85b473cbf9b1c9be27297e9039848"
+      },
+      "crosswalk": {
+        "path": "witness-crosswalk-025.html",
+        "blob_sha": "1a383ad21e3f915ad6742476eeb6f350d71dd7cd"
+      }
+    },
+    {
+      "id": "026",
+      "book": {
+        "path": "episodes/B026-nikolais-confession.html",
+        "blob_sha": "34950b516cfb798f2f6bb2ffb77bd16456662a63"
+      },
+      "film": {
+        "path": "episodes/F026-confession-versus-corroboration.html",
+        "blob_sha": "c785f66dbe1b6e657becc3b6408e3a2bb4f2dd63"
+      },
+      "crosswalk": {
+        "path": "witness-crosswalk-026.html",
+        "blob_sha": "a84e48f2294c5074a8cbb3dd3236b1c85aaf708e"
+      }
+    },
+    {
+      "id": "027",
+      "book": {
+        "path": "episodes/B027-luzhins-calculation.html",
+        "blob_sha": "907acdd74a49389527393502d35e7177077a7adb"
+      },
+      "film": {
+        "path": "episodes/F027-the-manufactured-narrative.html",
+        "blob_sha": "39b539856079f2344d820cc60666bef3d63a3f6f"
+      },
+      "crosswalk": {
+        "path": "witness-crosswalk-027.html",
+        "blob_sha": "17b8cd7fbc42b82894389f4a32bdbfe5361173fe"
+      }
+    },
+    {
+      "id": "028",
+      "book": {
+        "path": "episodes/B028-the-memorial-dinner.html",
+        "blob_sha": "6a7f7677882a9d746ec0752bf3669a7b0f75f257"
+      },
+      "film": {
+        "path": "episodes/F028-status-versus-substance.html",
+        "blob_sha": "fa9f335443175075dbeceec7265d8873cd72b968"
+      },
+      "crosswalk": {
+        "path": "witness-crosswalk-028.html",
+        "blob_sha": "8dc6d00a0e4d899e9c054008637928690c4176eb"
+      }
+    },
+    {
+      "id": "029",
+      "book": {
+        "path": "episodes/B029-the-planted-banknote-exposed.html",
+        "blob_sha": "e67348c79daf8f8229212b61a04f0f7b5a16be73"
+      },
+      "film": {
+        "path": "episodes/F029-provenance-defeats-frame-up.html",
+        "blob_sha": "f7906a9225805ed824e87358997bd5c2d21c3d58"
+      },
+      "crosswalk": {
+        "path": "witness-crosswalk-029.html",
+        "blob_sha": "18ca90bff00f9378b89a34983c3a1269625c7f97"
+      }
+    },
+    {
+      "id": "030",
+      "book": {
+        "path": "episodes/B030-confession-to-sonya.html",
+        "blob_sha": "b60b206e40ce0ba3d13dbaeb465e20fc5e73547c"
+      },
+      "film": {
+        "path": "episodes/F030-admission-versus-repair.html",
+        "blob_sha": "38581a70e282a5f8b0430655523e99c3caca607d"
+      },
+      "crosswalk": {
+        "path": "witness-crosswalk-030.html",
+        "blob_sha": "895bc21356d0105120cca55cb3d98bc4225cc49f"
+      }
+    },
+    {
+      "id": "031",
+      "book": {
+        "path": "episodes/B031-katerinas-last-struggle.html",
+        "blob_sha": "3277750e5bbe6f2f30f68fd727c3f671deb5e4ce"
+      },
+      "film": {
+        "path": "episodes/F031-need-without-judgment.html",
+        "blob_sha": "915133ee614eccb661f2dcce8fdfc0cb31cc67cf"
+      },
+      "crosswalk": {
+        "path": "witness-crosswalk-031.html",
+        "blob_sha": "9bf34e7be74f36b209c04222cb28672c37e2c286"
+      }
+    },
+    {
+      "id": "032",
+      "book": {
+        "path": "episodes/B032-the-uneasy-interval.html",
+        "blob_sha": "3f45a1ce3eff0e4ed07fb2c17b0929a81faf1bf2"
+      },
+      "film": {
+        "path": "episodes/F032-behavior-versus-inner-state.html",
+        "blob_sha": "d3b636b4f959da1e213efd2fb1dec5948a9d72fc"
+      },
+      "crosswalk": {
+        "path": "witness-crosswalk-032.html",
+        "blob_sha": "2018fb6020c200d33e7df6153e9a337b8866e6be"
+      }
+    },
+    {
+      "id": "033",
+      "book": {
+        "path": "episodes/B033-porfirys-direct-accusation.html",
+        "blob_sha": "34f34dcb668c06df708dccb81aecfc96ef50ea5d"
+      },
+      "film": {
+        "path": "episodes/F033-conviction-versus-proof.html",
+        "blob_sha": "e2b63dace10c2207736f60e986c79ef2da506c0a"
+      },
+      "crosswalk": {
+        "path": "witness-crosswalk-033.html",
+        "blob_sha": "d570ec148bdf7c5f518164f1e99f036e7661c497"
+      }
+    },
+    {
+      "id": "034",
+      "book": {
+        "path": "episodes/B034-svidrigailovs-knowledge.html",
+        "blob_sha": "f60ddaeb08d24cde93ecffc82c9f76ac0bf75228"
+      },
+      "film": {
+        "path": "episodes/F034-the-limits-of-privileged-information.html",
+        "blob_sha": "947f5a09daedf6b50c596f6399095b61b9de9394"
+      },
+      "crosswalk": {
+        "path": "witness-crosswalk-034.html",
+        "blob_sha": "d1fd3d89c7a0c56896ec96ea873a7c31eebd49fc"
+      }
+    },
+    {
+      "id": "035",
+      "book": {
+        "path": "episodes/B035-svidrigailovs-account.html",
+        "blob_sha": "da35478cc1c56353f83462a06909bbd4186c0d33"
+      },
+      "film": {
+        "path": "episodes/F035-the-interested-narrator.html",
+        "blob_sha": "7e8258af9a5cff9d4d2f53e845e1e17d7958c306"
+      },
+      "crosswalk": {
+        "path": "witness-crosswalk-035.html",
+        "blob_sha": "5067db71a38b3b875de0dc00c879c938acd72371"
+      }
+    },
+    {
+      "id": "036",
+      "book": {
+        "path": "episodes/B036-dunyas-refusal.html",
+        "blob_sha": "9d217349d916f6c9dca8bf62fc2c58e1df445994"
+      },
+      "film": {
+        "path": "episodes/F036-coercion-is-not-consent.html",
+        "blob_sha": "5f21e02d892afcdc5171b2de602b21f9bcfaabdb"
+      },
+      "crosswalk": {
+        "path": "witness-crosswalk-036.html",
+        "blob_sha": "4944db0a40f8d6b90280a883ef2a2c6735f5f973"
+      }
+    },
+    {
+      "id": "037",
+      "book": {
+        "path": "episodes/B037-svidrigailovs-final-night.html",
+        "blob_sha": "b447c027ba871882eec1bc2ad6796a9ff60f8ff8"
+      },
+      "film": {
+        "path": "episodes/F037-the-limits-of-final-testimony.html",
+        "blob_sha": "d492222b4192018a080945cb55cd6f613ea5981c"
+      },
+      "crosswalk": {
+        "path": "witness-crosswalk-037.html",
+        "blob_sha": "35b63f58e1a6c313c7b0271f0a46567050495ee5"
+      }
+    },
+    {
+      "id": "038",
+      "book": {
+        "path": "episodes/B038-the-farewell-before-confession.html",
+        "blob_sha": "e1b766394c65629da11f7fc22ff9201cebbf3f5a"
+      },
+      "film": {
+        "path": "episodes/F038-intention-versus-action.html",
+        "blob_sha": "e14c274528477f1ad460598da888b536699a0d61"
+      },
+      "crosswalk": {
+        "path": "witness-crosswalk-038.html",
+        "blob_sha": "489d07ad00d7835bcc807b4dd30a24b61825982e"
+      }
+    },
+    {
+      "id": "039",
+      "book": {
+        "path": "episodes/B039-the-official-confession.html",
+        "blob_sha": "7ed21e727ebc9cdba7d9ae5a6f6f5852f9a0d4ee"
+      },
+      "film": {
+        "path": "episodes/F039-from-action-to-record.html",
+        "blob_sha": "caadd78d7c02a87de4d27028e4657e25bfff0f16"
+      },
+      "crosswalk": {
+        "path": "witness-crosswalk-039.html",
+        "blob_sha": "41f49e76d291a439ec762d14910bf9ff83bbaa99"
+      }
+    },
+    {
+      "id": "040",
+      "book": {
+        "path": "episodes/B040-the-sentence.html",
+        "blob_sha": "c349f9f0c421bdfe6969465a0ab3a3fe8a667b7f"
+      },
+      "film": {
+        "path": "episodes/F040-judgment-versus-transformation.html",
+        "blob_sha": "643726b3f43f65985dc017b27962d629e04a3590"
+      },
+      "crosswalk": {
+        "path": "witness-crosswalk-040.html",
+        "blob_sha": "ed92d11e010014471a99335685447a758570c72c"
+      }
+    },
+    {
+      "id": "041",
+      "book": {
+        "path": "episodes/B041-the-renewal.html",
+        "blob_sha": "f9955501a8255f4936691e466298fec592c3c67b"
+      },
+      "film": {
+        "path": "episodes/F041-renewal-requires-time.html",
+        "blob_sha": "560b4dd391b06772ec92fb18b0c31a9d958733aa"
+      },
+      "crosswalk": {
+        "path": "witness-crosswalk-041.html",
+        "blob_sha": "372de6621dd2d8e91d5e2b3f5b57c5a5a81b4431"
+      }
+    }
+  ]
+}
