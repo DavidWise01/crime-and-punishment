@@ -748,3 +748,71 @@ Jewelry source contested         Time-indexed comparison
 **F012 — Contradiction and Corroboration:** disagreements should lead to source comparison, not false certainty. `conflicting accounts != permission to invent a missing event`.
 
 **Crosswalk 012:** Witness identity, provenance, source independence, and the distinction between reported claims and demonstrated acts.
+
+
+---
+
+## CRP natural invariant 012 — Agency, Contradiction and Corroboration · 2026-11-09
+
+**Release:** Independent original playable sprite episodes [Book B012 — Luzhin's Visit](episodes/B012-luzhins-visit.html) and [Film F012 — Contradiction and Corroboration](episodes/F012-contradiction-and-corroboration.html) are added without changing older episode sources. The dual-world arcade now has **24 playable episodes**: B001–B012 aligned to the novel's first 12 chapters, and F001–F012 as clearly marked original thematic studies of the 2000 film. The novel atlas still maps **41 reading units**, with 12 playable and 29 mapped but not yet playable.
+
+### B012 — Luzhin's Visit · Part Two, Chapter Five
+
+- Three original sprite scenes: Luzhin's formal entrance, his theory of self-interest, and a tense argument about his proposed marriage to Dunya
+- Six spatial witnesses: Luzhin's visible status, the poverty of the room, his political-economic argument, Dunya's own unobserved wishes, Raskolnikov's accusation, and the visit's unhappy ending
+- Six inspections plus comparison and sealing (eight checkpoints), keyboard/touch navigation, optional sound and three independent contextual sprite-comic panels
+- **Natural invariant:** `wealth or status != moral right`. Financial power and promises of security do not create ownership of another person's gratitude, consent, or choices
+- Luzhin's claims, Raskolnikov's responses and Dunya's independent agency stay in separate source categories
+- The next book chapter is **B013 — Part Two, Chapter Six: The Street and Zametov**, where anxious speech, interpersonal interpretation and public behavior must be distinguished from independently verified evidence
+
+### F012 — Contradiction and Corroboration · Original thematic film study
+
+- Three original symbolic sprite scenes: two competing accounts, a genuinely independent source, and an unresolved gap in the timeline
+- Six inspectors preserve both attributed claims, the independent record, its bounded scope, the missing interval and each witness's continuing agency
+- **Natural invariant:** `conflicting accounts != permission to invent facts`. Disagreement is a question for investigation, not authority to write an unevidenced third story
+- Even independently obtained evidence corroborates only details within its actual scope. An otherwise persuasive timeline may still contain unknown intervals
+- This is original non-graphic artwork and analysis, not a transcript, recreated shot sequence or claim about specific unheard film dialogue
+- The next film-boundary study is **F013 — Motive and Inference**, examining the line between observed action and speculation about inner intention
+
+### Cross-world Witness Crosswalk 012
+
+[**Crosswalk 012 — Wealth, Consent, and Corroboration**](witness-crosswalk-012.html) compares two strictly distinct sources: the public-domain novel's Luzhin visit and the separate copyrighted film's evidence themes, with two original Canvas2D illustrations.
+
+```text
+BOOK B012                         FILM F012
+    |                                 |
+Luzhin's financial position       Two conflicting statements
+    |                                 |
+Self-interest as justification    Third independently sourced record
+    |                                 |
+Dunya's personal agency           Unknown interval
+    +----------------+----------------+
+                     |
+                WITNESS AUDIT
+                     |
+        WEALTH          != MORAL RIGHT
+        REPORTED MOTIVE != VERIFIED INTENTION
+        CONTRADICTION   != INVENTED EVENT
+        CORROBORATION   != COMPLETE CERTAINTY
+                     |
+                | PRESERVE |
+```
+
+### Persistence, arcade graphics and verification
+
+- [Dual-world sprite arcade](sprite-arcade.html) features B012 and F012, draws six new contextual cartoons in the homepage, and retains links to the previous 22 releases
+- [41-unit novel atlas](book-atlas.html) marks B001–B012 as playable with **B011** correctly corresponding to the doctor and painter investigation in Part Two Chapter Four and **B012** to Luzhin's visit in Chapter Five
+- [Film guide](film-guide.html) includes three new original F012 cartoon panels on conflicting statements, independent evidence and unknown intervals, while retaining previous film studies
+- [Original novel homepage](index.html) adds B012/F012/Crosswalk 012 navigation and keeps existing extensive literary material
+- [Source verification workflow](.github/workflows/sprite-pages.yml) checks 24 committed episode files, crosswalks 002–012, the 41-unit book atlas, six new homepage panels, three illustrations per new playable chapter, and compare/seal controls
+- Older chapters, `suburbia.html`, `agents/` and `crp.dlw/` are preserved
+
+**Evidence distinction:** Authored sources and this append-only release note are committed in Git. Gameplay witness events are session-only, not a claim of server-side persistent player logs. Successful GitHub source verification and actual public GitHub Pages deployment are separate statuses.
+
+### Next natural invariant — 013
+
+**B013 — The Street and Zametov** (Part Two Chapter Six): a suspect's provocative words, an observer's interpretation, and the limits of evidence. `ambiguous speech != an established admission`.
+
+**F013 — Motive and Inference**: observed behavior and private motives should be evaluated as distinct categories. `observed action != verified internal intent`.
+
+**Crosswalk 013:** Keep words, actions, motive-attributions and later clarifications separately source-labeled.
