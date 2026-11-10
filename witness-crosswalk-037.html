@@ -1,0 +1,18 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>CRP Witness Crosswalk 037</title><style>body{margin:0;background:#101b26;color:#f1e8d8;font:16px/1.6 system-ui}main{max-width:950px;margin:auto;padding:30px 18px}a{color:#9bdcd7}h1{font-size:clamp(38px,6vw,68px);line-height:1.06}section{display:grid;grid-template-columns:1fr 1fr;gap:16px}.panel{background:#243743;border:1px solid #698b95;border-radius:13px;padding:20px}pre{white-space:pre-wrap;background:#0c2732;border-left:4px solid #e7c28d;padding:18px;overflow:auto;font:13px/1.7 monospace}canvas{width:100%;image-rendering:pixelated;aspect-ratio:16/9}@media(max-width:650px){section{grid-template-columns:1fr}}</style></head><body><main><a href="sprite-arcade.html">← ARCADE</a><h1>037 · Final words are not complete inner history.</h1><p>Two independent tracks: Svidrigailov's farewell acts and final words are documented, yet his complete interior motives are not available to witnesses; the film-side exercise tests the limits of interpreting final testimony.</p><section><div class="panel"><h2>BOOK B037 · Final Night</h2><canvas width="320" height="180" id="book"></canvas><p>Part Six Chapter Six: Svidrigailov provides funds for Sonya and his fiancée's family, spends an unsettled night at a hotel, and dies by suicide in the morning. The retelling remains non-graphic.</p><a href="episodes/B037-svidrigailovs-final-night.html">Play B037</a></div><div class="panel"><h2>FILM F037 · Testimony</h2><canvas width="320" height="180" id="film"></canvas><p>Original film-side evidence lab: preserve exact final words, witnessed actions, documented outcome, and uncertain interpretations separately. It is not a literal film scene.</p><a href="episodes/F037-the-limits-of-final-testimony.html">Play F037</a></div></section><h2>Dependency audit</h2><pre>BOOK: SVIDRIGAILOV --GIVES-----> FUNDS TO SONYA
+      SVIDRIGAILOV --VISITS----> FIANCEE'S FAMILY
+      HOTEL --------LAST NIGHT-> RESTLESSNESS / DREAMS
+      WATCHMAN -----HEARS-----> FINAL REMARK
+      FINAL OUTCOME -----------> DOCUMENTED DEATH
+      COMPLETE PRIVATE MOTIVE -> UNKNOWN
+
+FILM: LAST WORDS ---------> ATTRIBUTED STATEMENT
+      WITNESSED ACTIONS ---> BOUNDED OBSERVATION
+      FINAL OUTCOME ------> VERIFIED RECORD
+      INTERPRETATION -----> MARKED INFERENCE
+      PRIVATE HISTORY ----> NOT FULLY ACCESSIBLE
+
+FINAL_STATEMENT != COMPLETE_INNER_HISTORY
+OBSERVED_ACTION != CERTAIN_PRIVATE_MOTIVE
+FINAL_OUTCOME != COMPLETE_CAUSAL_EXPLANATION
+
+BOUNDARY 036 PRESERVED / 037 APPENDED</pre><p>Film-side art is original and symbolic, not a film still, dialogue transcription, or scene reconstruction.</p></main><script>(()=>{function draw(id,film){let c=document.getElementById(id).getContext('2d');c.imageSmoothingEnabled=false;const r=(x,y,w,h,k)=>{c.fillStyle=k;c.fillRect(x,y,w,h)};r(0,0,320,180,'#243b48');r(0,25,320,105,'#8da9ae');r(0,130,320,50,'#556874');for(let i=0;i<3;i++){let x=60+i*100;r(x-9,92,18,16,'#d7b69c');r(x-13,108,26,27,film?'#588ca2':'#a27970')}if(film){r(63,52,196,5,'#f2c083');r(158,49,5,43,'#e7bc82');r(234,45,14,14,'#77d4c3')}else{r(98,75,115,6,'#edc78a');r(148,62,14,20,'#d6bba1')}}draw('book',false);draw('film',true)})();</script></body></html>
