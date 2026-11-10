@@ -1211,3 +1211,23 @@ OBSERVED_PLACEMENT != INFERRED_MOTIVE
 **54 authored playable episodes:** B001–B027 and F001–F027. The book atlas retains 41 mapped reading sections, of which 27 now have authored playable chapters. Browser session seals are not Git persistence. Commits and public Pages deployment require separate verification.
 
 **Next natural bound 028:** Book Part Five Chapter Two, Marmeladov's memorial meal and deteriorating social conflict. Film-side distinguish performative status disputes from evidence of a person's conduct.
+
+
+---
+
+## CRP natural bound 028 — The Memorial Dinner / Status Versus Substance · 2026-11-10
+
+Boundary 027 and earlier authored chapters remain preserved. This release appends a new episode pair, crosswalk and site entry links.
+
+- [B028 — The Memorial Dinner](episodes/B028-the-memorial-dinner.html): Part Five Chapter Two. Katerina Ivanovna holds Marmeladov's memorial meal amid poverty, absent guests, exaggerated social expectations and escalating conflict with landlady Amalia Ivanovna. Luzhin's public accusation against Sonya belongs to the next chapter, not here.
+- [F028 — Status Versus Substance](episodes/F028-status-versus-substance.html): original symbolic evidence exercise alongside Crime + Punishment in Suburbia (2000), not film footage or a literal film scene. Public arguments, confidence, social rank and independently observed conduct are separate sources.
+- [Witness Crosswalk 028](witness-crosswalk-028.html): original sprite-art comparison, guarding against social-status shortcuts to factual conclusions.
+
+```yaml
+PUBLIC_STATUS != FACTUAL_AUTHORITY
+SOCIAL_CONFLICT != PROVEN_MISCONDUCT
+```
+
+**56 authored playable episodes:** B001–B028 and F001–F028. The atlas retains 41 mapped novel reading sections, 28 with playable book chapters. Browser-session seals are not persistent evidence; commits preserve source, and public Pages deployment remains separately verifiable.
+
+**Next natural bound 029:** Part Five Chapter Three, Luzhin's accusation against Sonya and Lebezyatnikov's disclosure of the planted banknote; film-side audit a staged accusation against independent provenance.
