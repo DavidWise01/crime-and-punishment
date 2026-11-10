@@ -1357,3 +1357,24 @@ ACCESS_TO_WORDS != ACCESS_TO_PRIVATE_INTENT
 **68 authored playable episodes:** B001–B034 and F001–F034. Novel atlas retains 41 mapped reading sections; 34 have authored playable book chapters. Browser seals remain session-local, Git commits are durable source records, and public Pages deployment requires independent verification.
 
 **Next natural bound 035:** Part Six Chapter Four, Svidrigailov's account of Marfa Petrovna and Dunya, testing self-serving autobiographical testimony; film-side separate narrator testimony from independently corroborated history.
+
+
+---
+
+## CRP natural bound 035 — Svidrigailov's Account / The Interested Narrator · 2026-11-10
+
+Boundary 034 and all earlier individual episode files remain preserved. This release appends two playable Canvas sprite chapters, the witness crosswalk, and archive navigation. A companion pixel-art chapter-build preview was rendered in chat; the GitHub pages retain their original interactive Canvas drawings.
+
+- [B035 — Svidrigailov's Account](episodes/B035-svidrigailovs-account.html): Part Six Chapter Four. Svidrigailov narrates his past with Marfa Petrovna, discusses Dunya and raises his plans involving a young prospective bride. His autobiographical testimony is not equivalent to independently established history.
+- [F035 — The Interested Narrator](episodes/F035-the-interested-narrator.html): original symbolic film-side exercise, not a literal scene from Crime + Punishment in Suburbia (2000). Preserve narrator interests, missing voices, independent records and claim-by-claim verification.
+- [Witness Crosswalk 035](witness-crosswalk-035.html): original sprite crosswalk that avoids counting a narrator's multiple retellings as independent witnesses.
+
+```yaml
+FIRST_PERSON_ACCOUNT != COMPLETE_HISTORY
+SELF_JUSTIFICATION != INDEPENDENT_VERIFICATION
+THREE_RETELLINGS != THREE_WITNESSES
+```
+
+**70 authored playable episodes:** B001–B035 and F001–F035. Novel atlas retains 41 mapped reading sections; 35 have playable book chapters. Browser seals are session-local; Git commits preserve source. Public Pages deployment is not independently verified.
+
+**Next natural bound 036:** Part Six Chapter Five, Svidrigailov's private confrontation with Dunya; film-side examine how knowledge and physical control can be used for coercion, preserving refusal and agency.
