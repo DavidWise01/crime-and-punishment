@@ -1027,3 +1027,23 @@ PERSONAL DIGNITY != SOCIAL RANK
 **36 playable authored episodes:** B001–B018 and F001–F018, with 41 novel reading sections mapped. Browser seals are session-local, source commits persist in Git, and Pages deployment is a separately verifiable operation.
 
 **Next natural target 019:** Book Part Three Chapter Five, Raskolnikov's first extended confrontation with Porfiry about the published extraordinary-man argument; film-side distinguish an articulated theory from proof of an actor's deed.
+
+
+---
+
+## CRP natural bound 019 — Extraordinary-man theory vs. proven action · 2026-11-10
+
+Boundary 018 remains preserved. This is an append-only release.
+
+- [Book B019 — The Extraordinary Man Under Examination](episodes/B019-extraordinary-man-examined.html): Part Three Chapter Five, Porfiry questions Raskolnikov's pawned belongings, published extraordinary-man article, and possible observations. An article can be evidence of an argument, not independent proof of an act.
+- [Film-side F019 — Theory Versus Deed](episodes/F019-theory-versus-deed.html): original, non-graphic analytical study accompanying Crime + Punishment in Suburbia, not a recreation of copyrighted footage or dialogue. Distinguish expressed beliefs, inferred motive and independently verified conduct.
+- [Crosswalk 019](witness-crosswalk-019.html): original sprite art and a source-labeled argument/conduct audit connecting the two separate interpretations.
+
+```yaml
+EXPRESSED THEORY != PROVEN ACTION
+MORAL EXCEPTION  != LEGAL IMMUNITY
+```
+
+**38 authored playable episodes:** B001–B019 and F001–F019. Book atlas retains 41 mapped reading sections; nineteen have playable implementations. Browser seals are session-local; Git retains source commits. Public Pages deployment requires independent verification.
+
+**Next natural bound 020:** Part Three Chapter Six, the unsettling accusation and Raskolnikov's mental strain; film-side distinguish an unverified accusation from an established fact.
