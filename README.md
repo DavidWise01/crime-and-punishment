@@ -816,3 +816,71 @@ Dunya's personal agency           Unknown interval
 **F013 — Motive and Inference**: observed behavior and private motives should be evaluated as distinct categories. `observed action != verified internal intent`.
 
 **Crosswalk 013:** Keep words, actions, motive-attributions and later clarifications separately source-labeled.
+
+
+---
+
+## CRP natural invariant 013 — Provocative Speech and Unverified Motives · 2026-11-09
+
+**Release:** Two newly committed playable original Canvas2D chapters: [B013 — The Street and Zametov](episodes/B013-the-street-and-zametov.html) and [F013 — Motive and Inference](episodes/F013-motive-and-inference.html). They add the original illustrated [Witness Crosswalk 013](witness-crosswalk-013.html). **The novel's Part One (7 chapters) and Part Two (6 chapters) are now playable in sequence** as B001–B013. The film-inspired thematic track contains F001–F013. The dual-world arcade now comprises **26 independently playable episodes** and 78 embedded episode cartoon panels, with six newly authored contextual homepage panels. The full novel atlas still maps **41 reading units**; 13 playable, 28 mapped but not yet playable.
+
+### B013 — The Street and Zametov · Part Two Chapter Six
+
+- Original three-scene sprite narrative: restless city walk; provocative tavern conversation with clerk Zametov; Marmeladov's fatal street accident and Raskolnikov's direct response to another person's suffering
+- Six source-labeled witnesses: public movement, inferred intention, Zametov's listening, hypothetical speech, Marmeladov's accident, and tangible aid
+- Eight checkpoints (six observations + witness comparison + seal), original three-panel comic illustrations, responsive keyboard/touch controls, optional synthesized audio
+- **Natural invariant:** `ambiguous speech != verified admission`. Raskolnikov's unsettling remarks invite suspicion, but a listener's inference must remain separate from an unequivocal self-report and independent evidence. The reader's omniscient view is not Zametov's witness record
+- Raskolnikov's assistance following Marmeladov's accident is an observable act that does not undo the deaths of Alyona Ivanovna and Lizaveta
+- **Next book target: B014 — The Family Arrives**, Part Three Chapter One; the immediate future of the family must be distinguished from the incomplete knowledge held by its members
+
+### F013 — Motive and Inference · Original thematic film study
+
+- Original non-graphic sprites present an observed action, competing claims about why it occurred, and a deliberately bounded evidentiary conclusion
+- Six witnesses record direct conduct, a partial view, two attributed motive accounts, observable consequences, and the remaining unknown intention
+- Eight checkpoints, a three-panel cartoon triptych, optional sound and original independent film-guide illustrations
+- **Natural invariant:** `observed action != verified internal intent`. The witness may know what happened without knowing every thought or purpose; motive claims need provenance and independent support
+- This is original symbolic interpretation of the copyrighted 2000 film's concerns, not a claim to reproduce its exact dialogue, footage or events
+- **Next film target: F014 — Proximity and Knowledge**, the distinction between physical closeness and direct access to facts
+
+### Cross-world source audit 013
+
+[**Witness Crosswalk 013 — Words and Motives**](witness-crosswalk-013.html) depicts original non-graphic, separately attributed novel and film motifs:
+
+```text
+BOOK B013                         FILM F013
+    |                                 |
+Provocative remarks               An observed action
+    |                                 |
+Zametov's interpretation          Two proposed motives
+    |                                 |
+Marmeladov's accident             A verifiable consequence
+    +----------------+----------------+
+                     |
+                WITNESS AUDIT
+                     |
+        AMBIGUOUS SPEECH != VERIFIED ADMISSION
+        PROXIMITY        != VERIFIED PURPOSE
+        OBSERVED ACTION  != INTERNAL INTENTION
+        HARM REPORTED    != MOTIVE ESTABLISHED
+                     |
+                 | PRESERVE |
+```
+
+### Persistent release details
+
+- [Dual-world arcade](sprite-arcade.html): B013/F013 are featured; six new original Canvas2D witness-cartoon panels shown in context; all 24 earlier playable episodes linked
+- [Novel atlas](book-atlas.html): 41 mapped reading units; Part One and Part Two both fully marked playable, with source-faithful B013 at Part Two Chapter Six
+- [Film guide](film-guide.html): three new F013 original action/motive/evidence sprites and navigation to F001–F013
+- [Original literary home](index.html): adds B013, F013 and Crosswalk 013 navigation without overwriting the existing source corpus
+- [Verification-only workflow](.github/workflows/sprite-pages.yml): requires 26 episode files, crosswalks 002–013, exactly 41 atlas chapter nodes, six current arcade panels and compare/seal controls in the latest releases; the pre-existing Pages workflow exclusively deploys
+- Earlier B012/F012 chapters, `suburbia.html`, agent archive and `crp.dlw/` retained without modification
+
+**Evidence boundary:** The Git repository preserves authored artifacts and this append-only release ledger. Player observations generated inside an episode remain in-session, not server-persisted. Source verification and successful Pages deployment must be confirmed separately.
+
+### Next natural invariant — 014
+
+**B014 — The Family Arrives (Part Three Chapter One):** A family's concern and knowledge differ from the individual's hidden memories. Proposed invariant: `close relationship != full access to another's history`.
+
+**F014 — Proximity and Knowledge:** Witness access is bounded by the place, time and direction of observation. Proposed invariant: `being nearby != having witnessed the event`.
+
+**Crosswalk 014:** Source-access constraints and the duty to retain unknowns instead of guessing.
