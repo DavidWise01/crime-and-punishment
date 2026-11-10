@@ -1,0 +1,32 @@
+{
+  "schema": "crp.audit-baseline.042.v1",
+  "snapshot": "2026-11-10",
+  "repository": "DavidWise01/crime-and-punishment",
+  "workflow_run_id": 42921135929,
+  "workflow_run_url": "https://github.com/DavidWise01/crime-and-punishment/actions/runs/42921135929",
+  "status": "PASS_WITH_WARNINGS",
+  "tested_commit": "8f07fc5fbf71a667bf966133d00e0f0b9b9275dd",
+  "required_artifacts": {
+    "book": 41,
+    "film": 41,
+    "crosswalk": 41,
+    "total": 123
+  },
+  "passed": 123,
+  "errors": 0,
+  "warnings": 27,
+  "warning_detail": "B015 through B041 retain inherited 'PART III / CHAPTER I' header text. The canonical 41-section registry is correct; original chapter files remain untouched to retain historical source provenance. Pixel-art triptych captions in later templates are also inherited and are not accepted as canonical chapter metadata.",
+  "verification_scope": [
+    "file existence",
+    "Git blob source consistency",
+    "HTML title",
+    "relative link targets"
+  ],
+  "not_verified": [
+    "interactive browser playthrough of 82 episodes",
+    "public Pages response for all 123 assets",
+    "content/scene semantic quality of all legacy sprite art"
+  ],
+  "operating_model": "Git canonical paths are versioned; scheduled workflow regenerates read-only evidence reports; living-kernel.html checks deployed bytes on user demand; human observations are browser-local chained packets",
+  "mirror_rule": "GitHub source and public Pages mirror share one ancestry, not two independent witnesses"
+}
