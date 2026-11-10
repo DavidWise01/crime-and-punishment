@@ -1088,3 +1088,23 @@ FINANCIAL HELP != CONSENT
 **42 authored playable episodes:** B001–B021 and F001–F021. Novel atlas retains 41 reading sections, 21 with playable book implementations. Session-level browser seals are not permanent Git records. Commits and successful public Pages deployment must be checked separately.
 
 **Next natural boundary 022:** Book Part Four Chapter Two, Luzhin's meeting and broken engagement; film-side distinguish public prestige or contractual pressure from free agreement.
+
+
+---
+
+## CRP natural bound 022 — Luzhin's Ultimatum / The Right to Withdraw · 2026-11-10
+
+Boundary 021 and previous playable releases are preserved in Git history. B022 begins with Part Four Chapter Two.
+
+- [Book B022 — Luzhin's Ultimatum](episodes/B022-luzhins-ultimatum.html): Dunya and her family meet Luzhin with Rodion and Razumikhin present; Luzhin's exclusionary demands and slanted accusations escalate into an ultimatum. Dunya breaks off the engagement. Their prior agreement is not irrevocable.
+- [Film-side F022 — The Right to Withdraw](episodes/F022-the-right-to-withdraw.html): an original, non-graphic interpretive evidence exercise, not a reconstruction of the copyrighted 2000 film. Earlier agreement, changes in conditions, and later withdrawal each retain their own time-stamped conceptual place.
+- [Witness Crosswalk 022](witness-crosswalk-022.html): original sprite evidence desk connecting personal agency with source-preserving records.
+
+```yaml
+SOCIAL PRESTIGE != MORAL AUTHORITY
+PRIOR AGREEMENT != PERMANENT CONSENT
+```
+
+**44 authored playable episodes:** B001–B022 and F001–F022. Novel atlas retains 41 reading sections, with 22 book episodes playable. Local browser seals do not create persistent server evidence. Git source commits and public Pages deployment must be verified separately.
+
+**Next natural bound 023:** Part Four Chapter Three, the family's reaction and Razumikhin's plans for a publishing venture; parallel film-side distinguish promises about future care from demonstrated capacity and action.
