@@ -1464,3 +1464,24 @@ DOCUMENTED_ADMISSION != INDEPENDENT_CORROBORATION
 **78 authored playable episodes:** B001–B039 and F001–F039. The atlas maps 41 novel reading sections, 39 with playable book chapters. Browser seals remain session-local; Git retains source history. Public Pages deployment remains independently verifiable.
 
 **Next natural bound 040:** Epilogue Chapter One, Raskolnikov's trial, mitigation and eight-year sentence, and Sonya's move to Siberia; film-side distinguish a legal judgment from complete inner transformation or repair.
+
+
+---
+
+## CRP natural bound 040 — The Sentence / Judgment Versus Transformation · 2026-11-10
+
+Boundary 039 and earlier individual playable chapters remain preserved. This release adds two interactive Canvas sprite episodes, source-separated crosswalk and append-only archive links. The in-chat pixel illustration is a separate concept render and not a screenshot verifying GitHub Pages deployment.
+
+- [B040 — The Sentence](episodes/B040-the-sentence.html): Epilogue Chapter One. Raskolnikov stands trial and receives eight years of penal servitude in Siberia. The court considers mitigating facts. Dunya and Razumikhin marry, Pulcheria Alexandrovna dies after illness, and Sonya follows to remain near Raskolnikov. Legal adjudication is distinct from inner regeneration.
+- [F040 — Judgment Versus Transformation](episodes/F040-judgment-versus-transformation.html): original symbolic film-side evidence exercise, not copied footage, dialogue, or a literal scene from Crime + Punishment in Suburbia (2000). The legal outcome, external penalty, remorse, restitution and future change carry separate evidence origins.
+- [Witness Crosswalk 040](witness-crosswalk-040.html): original pixel-art evidence diagram preserving the difference between adjudicated status and unresolved renewal.
+
+```yaml
+LEGAL_SENTENCE != MORAL_TRANSFORMATION
+PUNISHMENT != COMPLETED_REDEMPTION
+FAMILY_LOYALTY != CERTIFIED_REPAIR
+```
+
+**80 authored playable episodes:** B001–B040 and F001–F040. Book atlas retains 41 mapped novel reading sections, 40 with playable chapters. Browser seals are session-local, Git commits persist source history, and Pages deployment needs separate verification.
+
+**Next natural bound 041:** Epilogue Chapter Two, Raskolnikov's illness, Sonya's care, the possibility of love and inner renewal. Film-side test emerging change against the evidence of future sustained action; do not misrepresent the open-ended novel as fully completed moral restoration.
