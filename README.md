@@ -1128,3 +1128,24 @@ GOOD INTENT != VERIFIED CAPACITY
 **46 authored playable episodes:** B001–B023 and F001–F023. Novel atlas retains 41 mapped reading sections, of which 23 have playable chapters. Browser sealing is session-local; Git preserves source commits. Successful Pages deployment needs separate confirmation.
 
 **Next natural bound 024:** Book Part Four Chapter Four, Raskolnikov's visit to Sonya and the conflict between apparent helplessness, conscience, faith and a request to read of Lazarus; film-side separate proposed salvation or advice from the other person's own chosen response.
+
+
+---
+
+## CRP natural bound 024 — Lazarus and the Choice to Believe / Guidance Without Possession · 2026-11-10
+
+Boundary 023 and all earlier authored episode files remain preserved. This release appends only new episodes and site navigation.
+
+- [B024 — Lazarus and the Choice to Believe](episodes/B024-lazarus-and-the-choice-to-believe.html): Part Four Chapter Four. Sonya reads the account of Lazarus at Raskolnikov's request, after they discuss suffering and her faith. He promises a future disclosure about Lizaveta's killer; Svidrigailov overhears from the adjacent room. The account is an offered symbol of renewal, not proof that Rodion has already changed.
+- [F024 — Guidance Without Possession](episodes/F024-guidance-without-possession.html): original non-graphic film-side symbolic analysis; not copied film dialogue, footage or an actual film scene. It separates offered hope, the individual's reception, autonomous choice and independently observed subsequent outcome.
+- [Witness Crosswalk 024](witness-crosswalk-024.html): original sprite-art evidence comparison, including the bounded access of an overhearing witness.
+
+```yaml
+OFFERED GUIDANCE != FORCED BELIEF
+SHARED HOPE != GUARANTEED REDEMPTION
+OVERHEARD WORDS != COMPLETE PRIVATE KNOWLEDGE
+```
+
+**48 authored playable episodes:** B001–B024 and F001–F024. Novel atlas retains 41 mapped reading sections, 24 with playable book chapters. Browser sealing is session-local; source commit provenance is Git-based. Public Pages deployment status must be confirmed separately.
+
+**Next natural bound 025:** Book Part Four Chapter Five, Porfiry's psychological interrogation and the difference between suggestive behavior and established evidence; film-side challenge leading questions and coercively manufactured certainty.
