@@ -987,3 +987,23 @@ WITNESS AGREEMENT != SOURCE INDEPENDENCE
 **32 playable chapter files:** 16 book chapters and 16 film-side interpretive studies. Book atlas retains 41 reading units. Seals inside the browser game are session-only; source commits are immutable in Git history. Deployment must be checked separately.
 
 **Next bound 017:** B017 Part Three Chapter Three, family conversation and Dunya's explicit right to decide; F017 conflicting statements and preserved disagreement.
+
+
+---
+
+## CRP natural bound 017 — Family advice and preserved disagreement · 2026-11-10
+
+This release appends to sealed Boundary 016 without rewriting earlier chapters.
+
+- [B017 — Family Advice and Choice](episodes/B017-family-advice-and-choice.html) covers Part Three Chapter Three: Zosimov's assessment, the Marmeladov donation, family tension about Luzhin, and Dunya's decision to invite her brother and Razumikhin to the meeting. Raskolnikov's counsel and Luzhin's terms do not override Dunya's agency.
+- [F017 — Preserving Disagreement](episodes/F017-preserving-disagreement.html) uses fictional, non-graphic witness accounts in an original analytical parallel to the 2000 film, not copied scenes or dialogue. Both accounts are preserved with provenance before assessing whether the observations actually conflict.
+- [Crosswalk 017](witness-crosswalk-017.html) visually compares agency and evidence integrity, retaining irreducible distinctions between book and film-side analysis.
+
+```yaml
+FAMILY ADVICE != DECISION AUTHORITY
+DISAGREEMENT != EVIDENCE FAILURE
+```
+
+**34 playable HTML episodes:** B001–B017 and F001–F017, with 41 novel reading sections mapped. Source commits persist in Git; local session seals do not persist server-side. Pages deployment must be verified independently.
+
+**Next natural boundary 018:** B018 Part Three Chapter Four, Sonya's visit and invitation to Marmeladov's funeral; F018 distinguish a person's testimony from the social labels imposed upon them.
