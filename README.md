@@ -1169,3 +1169,24 @@ SUGGESTED ANSWER != INDEPENDENT RECALL
 **50 authored playable episodes:** B001–B025 and F001–F025. Novel atlas retains 41 mapped reading sections, 25 with playable book chapters. Browser seals are session-local and not persistent records; Git commits preserve source. Public Pages deployment needs separate verification.
 
 **Next natural bound 026:** Part Four Chapter Six, Nikolai's confession and the anonymous accuser's later explanation; film-side distinguish confession from independently corroborated guilt and provenance of the earlier allegation.
+
+
+---
+
+## CRP natural bound 026 — Nikolai's Confession / Confession Versus Corroboration · 2026-11-10
+
+Boundary 025 and earlier individual episode files are preserved. This release appends a new playable pair, crosswalk and site navigation.
+
+- [B026 — Nikolai's Unexpected Confession](episodes/B026-nikolais-confession.html): Part Four Chapter Six. Nikolai interrupts Porfiry's inquiry and confesses to both murders; Porfiry questions his account. Later a tradesman from the murder building returns to explain why he called Raskolnikov a murderer: he had witnessed suspicious questions at the gateway, not the murders. His retraction does not erase the narrower observation.
+- [F026 — Confession Versus Corroboration](episodes/F026-confession-versus-corroboration.html): an original, non-graphic film-side evidence exercise rather than a scene or quotation from the copyrighted film. Interview conditions and access to public details must be preserved before any independent corroboration claim.
+- [Witness Crosswalk 026](witness-crosswalk-026.html): illustration of source boundaries, including the separate statements of Nikolai, Porfiry and the tradesman.
+
+```yaml
+CONFESSION != VERIFIED GUILT
+SELF-ACCUSATION != INDEPENDENT CORROBORATION
+OBSERVED QUESTIONS != OBSERVED MURDER
+```
+
+**52 authored playable episodes:** B001–B026 and F001–F026. The complete novel atlas still maps 41 reading sections, with 26 implemented book episodes. Browser-session seals are local only; source is retained through Git commits. Public Pages deployment requires independent verification.
+
+**Next natural bound 027:** Part Five Chapter One, Luzhin's bitterness and manipulation of Lebezyatnikov before the memorial gathering; film-side distinguish a self-serving narrative from independent testimony and prepare the frame-up evidence chain.
