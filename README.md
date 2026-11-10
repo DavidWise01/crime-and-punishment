@@ -1485,3 +1485,24 @@ FAMILY_LOYALTY != CERTIFIED_REPAIR
 **80 authored playable episodes:** B001–B040 and F001–F040. Book atlas retains 41 mapped novel reading sections, 40 with playable chapters. Browser seals are session-local, Git commits persist source history, and Pages deployment needs separate verification.
 
 **Next natural bound 041:** Epilogue Chapter Two, Raskolnikov's illness, Sonya's care, the possibility of love and inner renewal. Film-side test emerging change against the evidence of future sustained action; do not misrepresent the open-ended novel as fully completed moral restoration.
+
+
+---
+
+## CRP natural bound 041 — The Renewal / Renewal Requires Time · 2026-11-10
+
+Boundary 040 and all earlier individual authored chapters remain preserved. The final mapped release adds two interactive Canvas sprite episodes, its final witness crosswalk and append-only site navigation. The neon pixel-art image shown in conversation is a separately rendered concept illustration, not a screenshot or embedded asset of the playable Pages chapters.
+
+- [B041 — The Renewal](episodes/B041-the-renewal.html): Epilogue Chapter Two. Raskolnikov initially remains estranged during Siberian imprisonment; illness and a disturbing dream unsettle him. Sonya's devoted presence and his riverside response open a new possibility of love and renewal. The novel ends with years of sentence remaining and transformation beginning, not completed.
+- [F041 — Renewal Requires Time](episodes/F041-renewal-requires-time.html): original symbolic film-side evidence exercise, not a film scene or adaptation of protected dialogue from Crime + Punishment in Suburbia (2000). An initial turning point, continuing support, independently observed choices and long-term repair must remain separate evidence gates.
+- [Witness Crosswalk 041](witness-crosswalk-041.html): final illustrated comparison and append-only evidence map with explicitly open future status.
+
+```yaml
+BEGINNING_OF_RENEWAL != COMPLETED_REDEMPTION
+SUSTAINED_CHANGE != ONE_EMOTIONAL_MOMENT
+STORY_MAP_COMPLETE != PERSON_COMPLETE
+```
+
+**82 authored playable episodes: B001–B041 and F001–F041.** The complete 41-section novel atlas has 41 playable book episodes and 41 original parallel film-side evidence labs. Every episode is a three-scene interactive Canvas2D chapter with session-local evidence and comparison gate. This is an authored-completeness assertion based on the release ledger and chapter files, not a claim that every page's UI has been browser-tested end-to-end. Git commits preserve source history; public GitHub Pages deployment remains independently verifiable.
+
+**Next engineering bound 042 — release integrity audit, not a new novel chapter:** enumerate B001–B041, F001–F041, crosswalk-001–041, check file and link existence, inspect navigation order, verify GitHub Pages live fetches, check chapter naming and reading sequence, and preserve any discrepancies in an append-only audit ledger. Do not fabricate chapter 42 of the novel.
