@@ -1252,3 +1252,24 @@ WITNESS_OBSERVATION != FIRST_INTERPRETATION
 **58 authored playable episodes:** B001–B029 and F001–F029. Book atlas maps 41 novel sections, 29 with playable implementations. Browser evidence seals remain session-local; source commits persist in Git. Public Pages deployment remains independently verifiable.
 
 **Next natural bound 030:** Book Part Five Chapter Four, Raskolnikov reveals to Sonya that he killed Alyona Ivanovna and Lizaveta, and they confront the difference between confession, remorse and the choice to face consequence; film-side separate admission from repair and accountability.
+
+
+---
+
+## CRP natural bound 030 — Confession to Sonya / Admission Versus Repair · 2026-11-10
+
+Boundary 029 and earlier individual playable chapters remain preserved. This append-only release adds source-separated evidence and navigation.
+
+- [B030 — The Confession to Sonya](episodes/B030-confession-to-sonya.html): Part Five Chapter Four. Raskolnikov admits to Sonya that he killed Alyona Ivanovna and Lizaveta, offers conflicting explanations and hears her call for public confession. His private admission is not yet a public surrender or completed accountability.
+- [F030 — Admission Versus Repair](episodes/F030-admission-versus-repair.html): original symbolic film-side exercise, not copied film footage or scenes from Crime + Punishment in Suburbia (2000). Stated admission, remorse, proposed repair, delivered action and recipients' choice are separately labeled.
+- [Witness Crosswalk 030](witness-crosswalk-030.html): original sprite-art comparison distinguishing hope for repentance from completed repair.
+
+```yaml
+ADMISSION != COMPLETED ATONEMENT
+REMORSE != REPAIRED HARM
+PROPOSED_REPAIR != VERIFIED_REPAIR
+```
+
+**60 authored playable episodes:** B001–B030 and F001–F030. Novel atlas retains 41 mapped reading sections, 30 with playable implementations. Browser seals are session-local; Git source commits persist. Public Pages deployment needs independent verification.
+
+**Next natural bound 031:** Part Five Chapter Five, Katerina Ivanovna's collapse and the children's crisis; film-side distinguish urgent observed needs from imposed narratives about deserving care.
