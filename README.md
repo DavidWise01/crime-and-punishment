@@ -1399,3 +1399,26 @@ RELEASE != RETROACTIVE_CONSENT
 **72 authored playable episodes:** B001–B036 and F001–F036. The book atlas retains 41 mapped reading sections, with 36 playable book chapters. Browser seals are session-local; Git commits preserve the source history. Public Pages deployment is not independently verified.
 
 **Next natural bound 037:** Part Six Chapter Six, Svidrigailov's final night and death, told without graphic depiction; film-side examine ambiguity in final communications and the limits of interpreting another person's interior state. Raskolnikov's official confession follows later in Part Six Chapter Eight.
+
+
+---
+
+## CRP natural bound 037 — Svidrigailov's Final Night / Limits of Final Testimony · 2026-11-10
+
+Boundary 036 and prior episode sources remain intact. New source-distinct interactive Canvas chapters, a witness crosswalk, and append-only site navigation were added. A separate chapter-art preview appeared in chat; that preview is a concept illustration and not a GitHub Pages deployment verification.
+
+- [B037 — Svidrigailov's Final Night](episodes/B037-svidrigailovs-final-night.html): Part Six Chapter Six. Svidrigailov provides money to Sonya and his prospective bride's family, spends an unsettled night at a hotel, and dies by suicide the following morning. Non-graphic original pixel-art scene logic separates material acts and final words from uncertain private motives.
+- [F037 — The Limits of Final Testimony](episodes/F037-the-limits-of-final-testimony.html): an original non-graphic symbolic film-side evidence exercise, not a literal film scene from Crime + Punishment in Suburbia (2000). Witness testimony, final communication, documented outcome and interpretation remain distinct.
+- [Witness Crosswalk 037](witness-crosswalk-037.html): source-separation diagram of bounded access to final actions and unknown interior experiences.
+
+```yaml
+FINAL_STATEMENT != COMPLETE_INNER_HISTORY
+OBSERVED_ACTION != CERTAIN_PRIVATE_MOTIVE
+FINAL_OUTCOME != COMPLETE_CAUSAL_EXPLANATION
+```
+
+**74 authored playable episodes:** B001–B037 and F001–F037. The book atlas retains 41 mapped reading sections, with 37 playable book episodes. Browser seals are only session-local; Git commits persist. Live Pages deployment remains separately verifiable.
+
+**Correct next novel chapter order:** B038 = Part Six Chapter Seven, Raskolnikov's farewell to his mother and Dunya. B039 = Part Six Chapter Eight, the voluntary official confession. B040 = Epilogue Chapter One, trial and eight-year sentence in Siberia. B041 = Epilogue Chapter Two, renewal. Any generated artwork suggesting B038 is the sentencing scene is an illustrative placeholder and not the canonical mapping.
+
+**Next natural bound 038:** The Farewell Before Confession; film-side separate a stated intention to confess from completed accountability.
