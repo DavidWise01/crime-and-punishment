@@ -884,3 +884,74 @@ Marmeladov's accident             A verifiable consequence
 **F014 — Proximity and Knowledge:** Witness access is bounded by the place, time and direction of observation. Proposed invariant: `being nearby != having witnessed the event`.
 
 **Crosswalk 014:** Source-access constraints and the duty to retain unknowns instead of guessing.
+
+
+---
+
+## CRP natural invariant 014 — Compassion and Witness Access · 2026-11-09
+
+**Release:** Two new original independently playable Canvas2D episodes: [B014 — Marmeladov's Last Hours](episodes/B014-marmeladovs-last-hours.html) and [F014 — Proximity and Knowledge](episodes/F014-proximity-and-knowledge.html). They are joined by original illustrated [Witness Crosswalk 014](witness-crosswalk-014.html). There are now **28 playable episodes**, fourteen book chapters B001–B014 and fourteen original film-themed studies F001–F014, with 84 embedded contextual comic panels. The full 41-unit novel atlas remains intact: **14 book units are playable**, 27 mapped but not yet playable.
+
+### Canonical source-order correction — Part Two has seven chapters
+
+An earlier boundary 013 summary mistakenly treated Part Two Chapter Six as its finale and included Marmeladov's fatal accident as if it belonged to Chapter Six. In fact, **Part Two Chapter Six** centers on Raskolnikov's troubling remarks to Zametov and restless movement, and **Part Two Chapter Seven** centers on **Marmeladov's fatal carriage accident, Raskolnikov's aid to the family, and the arrival of Pulcheria and Dunya**. The Part Two finale is correctly B014, while Part Three Chapter One now begins at **B015**. The prior B013 authored artifact is retained unchanged as a historical release containing an anticipatory accident motif; chronology is explicitly corrected here and in the atlas, arcade, and Crosswalk 014. The correction is source-verified against conventional chapter summaries and original public-domain text.
+
+### Book B014 — Marmeladov's Last Hours · Part Two Chapter Seven
+
+- Three original, non-graphic sprite scenes: the carriage accident and the attempt to help; the family's loss with Katerina and Sonya; Raskolnikov's return with Razumikhin to his mother and sister awaiting him
+- Six inspectable witnesses: observed accident, effort to get help, Katerina's response, Sonya's arrival, money offered to the family and the mother's/sister's unexpected reunion
+- Six inspections plus compare/seal, three original contextual cartoon panels, optional synthesized sound and keyboard/touch input
+- **Natural invariant:** `compassionate act != erased earlier harm`. Raskolnikov's kindness toward Marmeladov's family is real but does not cancel the murders of Alyona Ivanovna and Lizaveta
+- The family reunion shows Pulcheria's and Dunya's concern, but being close to Raskolnikov does not grant full knowledge of his hidden history
+- **Next book bound B015 — Part Three Chapter One:** the family, Razumikhin's care and the limits of a relative's perspective
+
+### Film F014 — Proximity and Knowledge · original thematic study
+
+- Three symbolic sprite scenes: a person near the event, a view blocked or delayed by line of sight and timing, and an audit of actual witness access
+- Six inspectable witnesses: spatial nearness, event timing, obstruction, directly heard sound versus secondhand report, corroborating access paths and unknown details
+- Six inspections, compare/seal, three original contextual cartoons, touch/keyboard input and optional sound
+- **Natural invariant:** `being nearby != having witnessed the event`. Nearness, presence before/after, direct sight, sound and hearsay are separately attributable
+- This is an original non-graphic analytical interpretation, not a claim about precise movie frames or dialogue. Next F015: source independence and copied accounts
+
+### Cross-world witness audit 014
+
+[**Crosswalk 014 — Compassion and Witness Access**](witness-crosswalk-014.html) contains two original pixel illustrations and preserves distinctions without conflating the public-domain novel and copyrighted film:
+
+```text
+BOOK B014                        FILM F014
+   |                                 |
+Marmeladov's accident           A person in the vicinity
+   |                                 |
+Family's loss and aid           Limited line of sight
+   |                                 |
+Family reunion                  Timing and secondhand reports
+   +----------------+----------------+
+                    |
+               WITNESS AUDIT
+                    |
+      COMPASSION   != ERASED HARM
+      FAMILY CARE  != OMNISCIENCE
+      PROXIMITY    != DIRECT OBSERVATION
+      SECONDHAND   != FIRSTHAND EVIDENCE
+                    |
+               | PRESERVE |
+```
+
+### Release contents and checks
+
+- [Dual-world sprite arcade](sprite-arcade.html) now features B014/F014, six new original contextual homepage cartoons and direct links to all 26 previous episodes
+- [Novel atlas](book-atlas.html) preserves 41 reading units and accurately marks seven playable chapters in each of Parts One and Two; Part Three begins at B015
+- [Film guide](film-guide.html) features F014 and an independent three-panel original witness-access comic, preserving earlier illustrations and links
+- [Original novel homepage](index.html) advertises B014, F014 and Crosswalk 014 without overwriting its existing extensive literary corpus
+- [Source validation workflow](.github/workflows/sprite-pages.yml) tests 28 episode paths, crosswalks 002–014, six latest arcade panels, 41 novel reading units and compare/seal controls for new episodes. The existing GitHub Pages deployment workflow remains sole publisher
+- Earlier B013/F013 chapters, the `suburbia.html` essay, `agents/` archive and `crp.dlw/` material remain unchanged
+
+**Evidence persistence:** Authored source files and this append-only ledger are saved in Git. Browser gameplay observations remain session-only, not remote persistent records. Validation workflow status and the separate Pages deployment status must be independently confirmed.
+
+### Next natural invariant — 015
+
+**B015 — Family Knowledge and Care, Part Three Chapter One:** Concern, loyalty and medical observation do not confer knowledge of all private facts. `close relationship != complete knowledge`.
+
+**F015 — Independent Witness:** Reports copied through a single social chain are not independent corroboration. `repeated source != new witness`.
+
+**Crosswalk 015:** Distinguish caring proximity, independently observed facts and inferred private motives.
