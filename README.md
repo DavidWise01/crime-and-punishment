@@ -1315,3 +1315,24 @@ REPEATED_GUESS != INDEPENDENT_FACT
 **64 authored playable episodes:** B001–B032 and F001–F032. The book atlas retains 41 mapped reading sections; 32 have authored playable book chapters. Browser seals are local to the session; Git commits provide persistent source history. Public Pages deployment needs independent verification.
 
 **Next natural bound 033:** Part Six Chapter Two, Porfiry's direct visit to Raskolnikov and his increasingly explicit theory; film-side distinguish a reasoned allegation from proven guilt, even when the investigator is confident.
+
+
+---
+
+## CRP natural bound 033 — Porfiry's Direct Accusation / Conviction Versus Proof · 2026-11-10
+
+Boundary 032 and all earlier individual episode sources remain preserved. This release adds a source-distinct playable pair, a new crosswalk and append-only navigation.
+
+- [B033 — Porfiry's Direct Accusation](episodes/B033-porfirys-direct-accusation.html): Part Six Chapter Two. Porfiry visits Raskolnikov and directly declares his conviction of guilt while encouraging him to confess. The suspect denies guilt and Porfiry does not leave with an actual confession. Psychological inference and independently demonstrable evidence remain separate.
+- [F033 — Conviction Versus Proof](episodes/F033-conviction-versus-proof.html): original symbolic film-side evidence exercise; not a literal scene or copied dialogue from Crime + Punishment in Suburbia (2000). Distinguish facts, an investigator's narrative, unproven links, disconfirming alternatives and properly calibrated conclusions.
+- [Witness Crosswalk 033](witness-crosswalk-033.html): original sprite-art evidence comparison and bounded inference test.
+
+```yaml
+INVESTIGATOR_CONVICTION != PROVEN_GUILT
+COHERENT_THEORY != COMPLETE_EVIDENCE
+SUGGESTED_CONFESSION != ACTUAL_CONFESSION
+```
+
+**66 authored playable episodes:** B001–B033 and F001–F033. Book atlas retains 41 mapped novel reading sections; 33 have playable book chapters. Local browser seals are ephemeral while Git commits retain source history. Public Pages deployment requires separate verification.
+
+**Next natural bound 034:** Part Six Chapter Three, Svidrigailov's conversation with Raskolnikov and their shifting confrontation; film-side test claims of privileged knowledge against bounded witness access and independently established fact.
