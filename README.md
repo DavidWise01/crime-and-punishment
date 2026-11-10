@@ -1149,3 +1149,23 @@ OVERHEARD WORDS != COMPLETE PRIVATE KNOWLEDGE
 **48 authored playable episodes:** B001–B024 and F001–F024. Novel atlas retains 41 mapped reading sections, 24 with playable book chapters. Browser sealing is session-local; source commit provenance is Git-based. Public Pages deployment status must be confirmed separately.
 
 **Next natural bound 025:** Book Part Four Chapter Five, Porfiry's psychological interrogation and the difference between suggestive behavior and established evidence; film-side challenge leading questions and coercively manufactured certainty.
+
+
+---
+
+## CRP natural bound 025 — Porfiry's Psychological Trap / The Leading Question · 2026-11-10
+
+Boundary 024 and all earlier authored chapters remain preserved. This release appends a new source-distinct episode pair and illustrated evidence comparison.
+
+- [B025 — Porfiry's Psychological Trap](episodes/B025-porfirys-psychological-trap.html): Part Four Chapter Five, Porfiry questions Raskolnikov's earlier conduct and hints at a surprise behind the locked door. This chapter stops before Nikolai's confession, which occurs in Part Four Chapter Six.
+- [F025 — The Leading Question](episodes/F025-the-leading-question.html): original symbolic film-side evidence exercise, not copyrighted film dialogue or a literal reconstruction from Crime + Punishment in Suburbia (2000). Separate unprompted recollection, question-introduced information and independent corroboration.
+- [Witness Crosswalk 025](witness-crosswalk-025.html): original sprite comparison with the pressure-versus-proof and prompt-versus-recall distinctions.
+
+```yaml
+INTERROGATION PRESSURE != PROOF
+SUGGESTED ANSWER != INDEPENDENT RECALL
+```
+
+**50 authored playable episodes:** B001–B025 and F001–F025. Novel atlas retains 41 mapped reading sections, 25 with playable book chapters. Browser seals are session-local and not persistent records; Git commits preserve source. Public Pages deployment needs separate verification.
+
+**Next natural bound 026:** Part Four Chapter Six, Nikolai's confession and the anonymous accuser's later explanation; film-side distinguish confession from independently corroborated guilt and provenance of the earlier allegation.
