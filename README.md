@@ -1294,3 +1294,24 @@ OFFERED_HELP != DELIVERED_CARE
 **62 authored playable episodes:** B001–B031 and F001–F031. Book atlas maps 41 novel reading sections, with 31 playable book chapters. Browser session seals remain local, source is Git-persistent, and public Pages publication must be verified separately.
 
 **Next natural bound 032:** Part Six Chapter One, Raskolnikov's unsettled days after Katerina's death, Razumikhin's observations and Porfiry's approaching return; film-side distinguish outward behavior from hidden interior states.
+
+
+---
+
+## CRP natural bound 032 — The Uneasy Interval / Behavior Versus Inner State · 2026-11-10
+
+Boundary 031 and earlier individual episode sources remain preserved. This append-only release extends the book and symbolic film-side evidence tracks.
+
+- [B032 — The Uneasy Interval](episodes/B032-the-uneasy-interval.html): Part Six Chapter One. Raskolnikov drifts through troubled days after Katerina Ivanovna's death and Razumikhin confronts the strain his withdrawal imposes on his family. Visible conduct, Razumikhin's worries and any unknown private motives remain separate.
+- [F032 — Behavior Versus Inner State](episodes/F032-behavior-versus-inner-state.html): original symbolic film-side evidence exercise, not copied material or literal scenes from Crime + Punishment in Suburbia (2000). Distinguish observed behavior, spoken statement, witness inference, volunteered self-report and unknown motive.
+- [Witness Crosswalk 032](witness-crosswalk-032.html): illustrated evidence separation for outward actions and inferred inner states.
+
+```yaml
+OBSERVED_BEHAVIOR != COMPLETE_INNER_KNOWLEDGE
+CONCERNED_INFERENCE != VERIFIED_MOTIVE
+REPEATED_GUESS != INDEPENDENT_FACT
+```
+
+**64 authored playable episodes:** B001–B032 and F001–F032. The book atlas retains 41 mapped reading sections; 32 have authored playable book chapters. Browser seals are local to the session; Git commits provide persistent source history. Public Pages deployment needs independent verification.
+
+**Next natural bound 033:** Part Six Chapter Two, Porfiry's direct visit to Raskolnikov and his increasingly explicit theory; film-side distinguish a reasoned allegation from proven guilt, even when the investigator is confident.
