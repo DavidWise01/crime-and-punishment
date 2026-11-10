@@ -969,3 +969,21 @@ REPEATED SOURCE    != INDEPENDENT WITNESS
 ```
 
 **Authored releases:** 30 playable chapters total, B001–B015 and F001–F015. All 41 book reading units remain mapped, 15 playable. Session-ledger completion is not a server-side permanent seal. Site deployment status must be verified independently of commits.
+
+
+---
+
+## CRP natural bound 016 — Authority, obligation and evidence contamination · 2026-11-10
+
+Boundary 015 remains immutable. [Book B016 — Authority, Obligation and Debt](episodes/B016-authority-obligation-and-debt.html) covers Part Three Chapter Two: Razumikhin's contrition, his conversation with Pulcheria and Dunya, Luzhin's exclusionary letter and Dunya's decision to include her brother. Social pressure, financial position, and obligation do not confer moral authority.
+
+[Film-side F016 — Corroboration Without Contamination](episodes/F016-corroboration-without-contamination.html) is original symbolic analysis, not an authorized retelling of film footage: witness B learns from source A before giving a matching account, whereas C offers separately acquired evidence whose independence still requires verification. [Crosswalk 016](witness-crosswalk-016.html) preserves source dependencies and the distinct book/film scopes.
+
+```yaml
+SOCIAL AUTHORITY != MORAL AUTHORITY
+WITNESS AGREEMENT != SOURCE INDEPENDENCE
+```
+
+**32 playable chapter files:** 16 book chapters and 16 film-side interpretive studies. Book atlas retains 41 reading units. Seals inside the browser game are session-only; source commits are immutable in Git history. Deployment must be checked separately.
+
+**Next bound 017:** B017 Part Three Chapter Three, family conversation and Dunya's explicit right to decide; F017 conflicting statements and preserved disagreement.
