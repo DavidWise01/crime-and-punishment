@@ -1108,3 +1108,23 @@ PRIOR AGREEMENT != PERMANENT CONSENT
 **44 authored playable episodes:** B001–B022 and F001–F022. Novel atlas retains 41 reading sections, with 22 book episodes playable. Local browser seals do not create persistent server evidence. Git source commits and public Pages deployment must be verified separately.
 
 **Next natural bound 023:** Part Four Chapter Three, the family's reaction and Razumikhin's plans for a publishing venture; parallel film-side distinguish promises about future care from demonstrated capacity and action.
+
+
+---
+
+## CRP natural bound 023 — Care and the Future / Promises Versus Capacity · 2026-11-10
+
+Boundary 022 and all earlier source files remain preserved. This release adds new episodes and append-only navigation.
+
+- [B023 — Care and the Future](episodes/B023-care-and-the-future.html): Part Four Chapter Three. Razumikhin proposes a publishing business after Luzhin's departure, while Raskolnikov asks him to care for Pulcheria and Dunya and withdraws. The publishing venture is a proposal, not an already successful enterprise.
+- [F023 — Promises Versus Capacity](episodes/F023-promises-versus-capacity.html): original, symbolic and non-graphic film-side evidence exercise, not a reconstruction of Crime + Punishment in Suburbia (2000). An announced intention, practical resources, action and confirmed delivery are independently recorded.
+- [Witness Crosswalk 023](witness-crosswalk-023.html): original sprite comparison and stage-separated evidence desk.
+
+```yaml
+PROMISED SUPPORT != DELIVERED CARE
+GOOD INTENT != VERIFIED CAPACITY
+```
+
+**46 authored playable episodes:** B001–B023 and F001–F023. Novel atlas retains 41 mapped reading sections, of which 23 have playable chapters. Browser sealing is session-local; Git preserves source commits. Successful Pages deployment needs separate confirmation.
+
+**Next natural bound 024:** Book Part Four Chapter Four, Raskolnikov's visit to Sonya and the conflict between apparent helplessness, conscience, faith and a request to read of Lazarus; film-side separate proposed salvation or advice from the other person's own chosen response.
