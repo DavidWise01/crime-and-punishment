@@ -1068,3 +1068,23 @@ DREAM != WAKING TESTIMONY
 **40 authored playable episodes:** B001–B020 and F001–F020. Novel atlas maintains 41 reading sections, of which 20 have playable implementations. Local session seals are not persistent server-side evidence. Git commits and public Pages deployment have separate confirmation states.
 
 **Next natural bound 021:** Book Part Four Chapter One, Svidrigailov's proposals and the question of purported generosity versus self-interested leverage; film-side distinguish a self-serving offer from genuine consent.
+
+
+---
+
+## CRP natural bound 021 — Svidrigailov's offer / the conditional gift · 2026-11-10
+
+This append-only release preserves Boundary 020 and earlier chapter sources.
+
+- [B021 — Svidrigailov's Offer](episodes/B021-svidrigailovs-offer.html): Part Four Chapter One. Svidrigailov approaches Raskolnikov, proposes ten thousand roubles for Dunya, seeks access to her and reports Marfa Petrovna's three-thousand-rouble bequest. Proposed gift, attributed bequest and recipient consent remain distinct.
+- [F021 — The Conditional Gift](episodes/F021-the-conditional-gift.html): original symbolic film-side exercise, not an authorized reconstruction or quotation from the 2000 film. A proposed benefit, conditions, pressure and recipient decision must be assessed separately.
+- [Crosswalk 021](witness-crosswalk-021.html): illustrated comparison of money, influence and choice with independent-source classifications.
+
+```yaml
+GENEROSITY != ENTITLEMENT
+FINANCIAL HELP != CONSENT
+```
+
+**42 authored playable episodes:** B001–B021 and F001–F021. Novel atlas retains 41 reading sections, 21 with playable book implementations. Session-level browser seals are not permanent Git records. Commits and successful public Pages deployment must be checked separately.
+
+**Next natural boundary 022:** Book Part Four Chapter Two, Luzhin's meeting and broken engagement; film-side distinguish public prestige or contractual pressure from free agreement.
