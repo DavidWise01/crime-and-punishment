@@ -1422,3 +1422,24 @@ FINAL_OUTCOME != COMPLETE_CAUSAL_EXPLANATION
 **Correct next novel chapter order:** B038 = Part Six Chapter Seven, Raskolnikov's farewell to his mother and Dunya. B039 = Part Six Chapter Eight, the voluntary official confession. B040 = Epilogue Chapter One, trial and eight-year sentence in Siberia. B041 = Epilogue Chapter Two, renewal. Any generated artwork suggesting B038 is the sentencing scene is an illustrative placeholder and not the canonical mapping.
 
 **Next natural bound 038:** The Farewell Before Confession; film-side separate a stated intention to confess from completed accountability.
+
+
+---
+
+## CRP natural bound 038 — The Farewell Before Confession / Intention Versus Action · 2026-11-10
+
+Boundary 037 and all earlier individual chapter files remain preserved. This release adds two original playable Canvas sprite chapters, the source-separation crosswalk and append-only archive navigation. The in-chat 16-bit chapter overview is a separate conceptual illustration; it is not an embedded screenshot or a verification of deployed GitHub Pages.
+
+- [B038 — The Farewell Before Confession](episodes/B038-the-farewell-before-confession.html): Part Six Chapter Seven. Raskolnikov sees his mother, then Dunya, and heads toward the official confession, which occurs in Chapter Eight. His mother does not receive full disclosure, Dunya understands more, and departure is not yet surrender.
+- [F038 — Intention Versus Action](episodes/F038-intention-versus-action.html): original symbolic film-side evidence exercise, not a literal scene or copy from Crime + Punishment in Suburbia (2000). Record declared intention, independent family reactions, observed departure and confirmed fulfillment separately.
+- [Witness Crosswalk 038](witness-crosswalk-038.html): original pixel crosswalk illustrating the completion-pending witness gate.
+
+```yaml
+DECLARED_INTENTION != COMPLETED_ACTION
+FAMILY_LOYALTY != ABSENCE_OF_HARM
+DEPARTURE != OFFICIAL_CONFESSION
+```
+
+**76 authored playable episodes:** B001–B038 and F001–F038. Book atlas maps 41 reading sections, with 38 implemented. Browser evidence seals are session-local; Git commits retain source history. Live Pages deployment is separately verifiable.
+
+**Next natural bound 039:** Part Six Chapter Eight, Raskolnikov's final visit to Sonya, his crossroads gesture, and the completed official confession at the police station; film-side separate witnessed confession from legal determination and justice.
