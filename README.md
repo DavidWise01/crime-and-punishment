@@ -543,3 +543,70 @@ Overheard discussion              Independent corroboration
 **Film F009 — Pressure and Testimony**: how fear, allegiance and unequal power change what a person can safely say. Proposed invariant: `a statement made under pressure != freely verified truth`.
 
 **Crosswalk 009:** Separate actions, testimony, and the persistence of historical facts despite changed accounts.
+
+
+---
+
+## CRP natural invariant 009 — Concealment and Pressured Testimony · 2026-11-09
+
+**Release:** Two new independently playable original Canvas2D chapters: [Book B009](episodes/B009-concealment-and-fever.html) and [Film F009](episodes/F009-pressure-and-testimony.html), with a separate [illustrated Witness Crosswalk 009](witness-crosswalk-009.html). The dual-world arcade now has **18 playable episodes** (B001–B009 and F001–F009). The complete novel atlas still maps **41 reading units**; nine book chapters are playable. Each new chapter has three scenes, six inspectable witnesses, a compare gate and a seal gate, optional sound, keyboard/touch movement and three original contextual cartoon panels. The arcade homepage contains six new original drawings.
+
+### Book B009 — Concealment and Fever · Part Two Chapter Two
+
+- Three original, non-graphic symbolic sprite scenes: feverish room, hidden evidence as an abstract record, and continuing Petersburg
+- Six source witnesses: the fever, objects associated with the crime, reduced visibility, feelings of exposure, the city beyond Raskolnikov's fear, and the continued deaths of **Alyona Ivanovna and Lizaveta**
+- **Natural invariant:** `concealment != erasure of the event`. Moving objects out of sight cannot undo the murders or prove that other people know what Raskolnikov fears they know
+- The chapter does not teach, reward, simulate or illustrate techniques for concealing a crime
+- Next novel target: **B010 — Visitors and Fever** (Part Two Chapter Three), where Razumikhin's concern and conflicting interpretations are separate from Raskolnikov's private knowledge
+
+### Film F009 — Pressure and Testimony
+
+- Original thematic interpretation of the copyrighted 2000 film, not a shot-by-shot recreation or a claim about exact unheard dialogue
+- Three non-graphic scenes: a question, imbalance of power, and a safer account that retains the witness's agency
+- Six evidence witnesses: question, speaker, unequal power, silence, supportive circumstances and continuing personal autonomy
+- **Natural invariant:** `pressured statement != freely verified truth`. Threat, fear or dependence must remain part of an attributed statement's context. Silence is not consent; a safer environment can improve disclosure without guaranteeing certainty
+- Three new independent context cartoons in the [film guide](film-guide.html), plus original episode art and homepage sprites
+- Next interpretive film target: **F010 — Power and Public Judgment**
+
+### Cross-world natural evidence bound 009
+
+[**Witness Crosswalk 009 — Concealment and Pressured Testimony**](witness-crosswalk-009.html) makes an original illustrated comparison while preserving the film and novel as distinct sources:
+
+```text
+BOOK B009                         FILM F009
+    |                                 |
+Possessions out of view           Words spoken under pressure
+    |                                 |
+Anxious memory                    Speech constrained by power
+    |                                 |
+Two killings still occurred       Affected witness retains agency
+    +----------------+----------------+
+                     |
+                WITNESS AUDIT
+                     |
+       CONCEALMENT     != ERASED EVENT
+       DISTRESS        != VERIFIED FACT
+       PRESSURED WORD  != FREE CONSENT
+       SILENCE         != COMPLETE ACCOUNT
+                     |
+                 | PRESERVE |
+```
+
+### Canonical updates and release integrity
+
+- [Sprite arcade](sprite-arcade.html) features B009/F009, six newly drawn contextual panels and links to the previous 16 independent episodes
+- [41-unit novel atlas](book-atlas.html) marks B001–B009 as playable, including the first two chapters of Part Two, without claiming the remaining 32 units are implemented
+- [2000 film guide](film-guide.html) features F009 and three new original sprites, preserving F001–F008 studies
+- [Original novel homepage](index.html) retains the extensive prior literary corpus and links to B009, F009 and Crosswalk 009
+- [Source verification CI](.github/workflows/sprite-pages.yml) checks 18 playable files, crosswalks 002–009, six current homepage panels, 41 mapped units, three original panels per latest chapter, and compare/seal controls
+- Existing `suburbia.html`, `agents/`, `crp.dlw/`, B008 and F008 files remain untouched
+
+**Persistence rule:** Git stores the authored source and append-only release ledger. Browser play journals remain local to each session. A successful commit and CI run must be distinguished from completed Pages publication; the built-in Pages workflow remains the sole deployer.
+
+### Next natural invariant — 010
+
+**B010 — Visitors and Fever** (Part Two Chapter Three): What Razumikhin and visitors see, what Raskolnikov remembers, and what is actually known. Proposed invariant: `observed symptom != complete knowledge of its cause`.
+
+**F010 — Power and Public Judgment** (original film study): Who shapes a public story and who bears its cost. Proposed invariant: `social authority != evidentiary authority`.
+
+**Crosswalk 010:** Preserve source attribution across distressed memory, witness testimony, and public judgment without overwriting earlier historical events.
